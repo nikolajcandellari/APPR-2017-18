@@ -1,11 +1,15 @@
-# Analiza podatkov s programom R, 2017/18
+# Analiza posredovanj gasilskih enot na območju Slovenije
 
-Repozitorij z gradivi pri predmetu APPR v študijskem letu 2017/18
+Gasilske enote so poleg ekip NMP-jev(nujne medicinske pomoči) ene izmed najpogosteje potrebovanih intervencijskih služb v Sloveniji. Z veliko znanja in dobro opremo so gasilske enote na pomoč poklicane na raznovrstne intervencije, kjer po svojih najboljših močeh rešujejo življenja, premoženja in naravo.
+
 
 ## Tematika
 
-Izbrali si boste temo, s katero se bo vaš projekt ukvarjal. Tukaj boste
-napisali, kje ste dobili podatke, ter kakšen je vaš cilj.
+Cilj tega projekta bo torej analiza  števila intervencij po posameznih društvih(poklicnih enotah) za leto 2016, podrobnejša analiza požarov(število požarov po regijah, povzočena škoda, vzrok, čas nastanka, ... ) ter med letno primerjanje števila intervencij po posameznih kategorijah...
+
+Kot vir bom uporabljal spletne strani in sicer:
+http://spin.sos112.si/SPIN2/Javno/
+https://apl.gasilec.net/Vulkan/Login.aspx
 
 ## Program
 
