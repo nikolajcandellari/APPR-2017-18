@@ -14,6 +14,8 @@ Cilj tega projekta bo torej analiza števila intervencij po posameznih društvih
 3.tabela: analiza požarov v Sloveniji(društvo, vzrok, čas nastanka, povzročena škoda, vrsta požara(npr. požar stanovanjskega objekta, požar osebnega vozila, itd.))
 
 Kot vir bom uporabljal spletne strani in sicer:
+
+
 http://spin.sos112.si/SPIN2/Javno/
 
 https://apl.gasilec.net/Vulkan/Login.aspx
