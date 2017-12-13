@@ -1,0 +1,672 @@
+﻿Textbox1
+"Pregled števila dogodkov po letih za 
+ReCO: vsi regijski centri
+Občina: vse občine v okviru ReCO"
+
+VrstaDogodka,Leto,Textbox63,SkupinaDogodka,Število,Textbox59
+NARAVNE NESREČE,2005,670,Potresi,52,11.042
+NARAVNE NESREČE,2006,745,Potresi,26,13.236
+NARAVNE NESREČE,2007,781,Potresi,43,13.283
+NARAVNE NESREČE,2008,960,Potresi,22,12.511
+NARAVNE NESREČE,2009,1.075,Potresi,19,13.742
+NARAVNE NESREČE,2010,828,Potresi,36,11.665
+NARAVNE NESREČE,2011,584,Potresi,22,13.589
+NARAVNE NESREČE,2012,1.173,Potresi,19,14.743
+NARAVNE NESREČE,2013,1.202,Potresi,34,14.093
+NARAVNE NESREČE,2014,1.986,Potresi,52,14.571
+NARAVNE NESREČE,2015,841,Potresi,37,14.664
+NARAVNE NESREČE,2016,1.193,Potresi,45,15.841
+NARAVNE NESREČE,2017,1.207,Potresi,39,15.706
+NARAVNE NESREČE,2005,670,Visoko plimovanje morja,12,11.042
+NARAVNE NESREČE,2006,745,Visoko plimovanje morja,25,13.236
+NARAVNE NESREČE,2007,781,Visoko plimovanje morja,111,13.283
+NARAVNE NESREČE,2008,960,Visoko plimovanje morja,44,12.511
+NARAVNE NESREČE,2009,1.075,Visoko plimovanje morja,74,13.742
+NARAVNE NESREČE,2010,828,Visoko plimovanje morja,58,11.665
+NARAVNE NESREČE,2011,584,Visoko plimovanje morja,5,13.589
+NARAVNE NESREČE,2012,1.173,Visoko plimovanje morja,19,14.743
+NARAVNE NESREČE,2013,1.202,Visoko plimovanje morja,20,14.093
+NARAVNE NESREČE,2014,1.986,Visoko plimovanje morja,10,14.571
+NARAVNE NESREČE,2015,841,Visoko plimovanje morja,10,14.664
+NARAVNE NESREČE,2016,1.193,Visoko plimovanje morja,9,15.841
+NARAVNE NESREČE,2017,1.207,Visoko plimovanje morja,,15.706
+NARAVNE NESREČE,2005,670,Poplave,117,11.042
+NARAVNE NESREČE,2006,745,Poplave,117,13.236
+NARAVNE NESREČE,2007,781,Poplave,65,13.283
+NARAVNE NESREČE,2008,960,Poplave,152,12.511
+NARAVNE NESREČE,2009,1.075,Poplave,342,13.742
+NARAVNE NESREČE,2010,828,Poplave,260,11.665
+NARAVNE NESREČE,2011,584,Poplave,72,13.589
+NARAVNE NESREČE,2012,1.173,Poplave,294,14.743
+NARAVNE NESREČE,2013,1.202,Poplave,349,14.093
+NARAVNE NESREČE,2014,1.986,Poplave,626,14.571
+NARAVNE NESREČE,2015,841,Poplave,242,14.664
+NARAVNE NESREČE,2016,1.193,Poplave,340,15.841
+NARAVNE NESREČE,2017,1.207,Poplave,255,15.706
+NARAVNE NESREČE,2005,670,Plazovi,76,11.042
+NARAVNE NESREČE,2006,745,Plazovi,78,13.236
+NARAVNE NESREČE,2007,781,Plazovi,44,13.283
+NARAVNE NESREČE,2008,960,Plazovi,72,12.511
+NARAVNE NESREČE,2009,1.075,Plazovi,113,13.742
+NARAVNE NESREČE,2010,828,Plazovi,96,11.665
+NARAVNE NESREČE,2011,584,Plazovi,29,13.589
+NARAVNE NESREČE,2012,1.173,Plazovi,67,14.743
+NARAVNE NESREČE,2013,1.202,Plazovi,168,14.093
+NARAVNE NESREČE,2014,1.986,Plazovi,280,14.571
+NARAVNE NESREČE,2015,841,Plazovi,62,14.664
+NARAVNE NESREČE,2016,1.193,Plazovi,129,15.841
+NARAVNE NESREČE,2017,1.207,Plazovi,69,15.706
+NARAVNE NESREČE,2005,670,Visok sneg,40,11.042
+NARAVNE NESREČE,2006,745,Visok sneg,67,13.236
+NARAVNE NESREČE,2007,781,Visok sneg,92,13.283
+NARAVNE NESREČE,2008,960,Visok sneg,29,12.511
+NARAVNE NESREČE,2009,1.075,Visok sneg,77,13.742
+NARAVNE NESREČE,2010,828,Visok sneg,127,11.665
+NARAVNE NESREČE,2011,584,Visok sneg,20,13.589
+NARAVNE NESREČE,2012,1.173,Visok sneg,161,14.743
+NARAVNE NESREČE,2013,1.202,Visok sneg,171,14.093
+NARAVNE NESREČE,2014,1.986,Visok sneg,173,14.571
+NARAVNE NESREČE,2015,841,Visok sneg,44,14.664
+NARAVNE NESREČE,2016,1.193,Visok sneg,71,15.841
+NARAVNE NESREČE,2017,1.207,Visok sneg,33,15.706
+NARAVNE NESREČE,2005,670,Toča,28,11.042
+NARAVNE NESREČE,2006,745,Toča,30,13.236
+NARAVNE NESREČE,2007,781,Toča,51,13.283
+NARAVNE NESREČE,2008,960,Toča,69,12.511
+NARAVNE NESREČE,2009,1.075,Toča,24,13.742
+NARAVNE NESREČE,2010,828,Toča,5,11.665
+NARAVNE NESREČE,2011,584,Toča,18,13.589
+NARAVNE NESREČE,2012,1.173,Toča,8,14.743
+NARAVNE NESREČE,2013,1.202,Toča,17,14.093
+NARAVNE NESREČE,2014,1.986,Toča,10,14.571
+NARAVNE NESREČE,2015,841,Toča,13,14.664
+NARAVNE NESREČE,2016,1.193,Toča,48,15.841
+NARAVNE NESREČE,2017,1.207,Toča,3,15.706
+NARAVNE NESREČE,2005,670,Neurja,255,11.042
+NARAVNE NESREČE,2006,745,Neurja,150,13.236
+NARAVNE NESREČE,2007,781,Neurja,188,13.283
+NARAVNE NESREČE,2008,960,Neurja,390,12.511
+NARAVNE NESREČE,2009,1.075,Neurja,297,13.742
+NARAVNE NESREČE,2010,828,Neurja,96,11.665
+NARAVNE NESREČE,2011,584,Neurja,228,13.589
+NARAVNE NESREČE,2012,1.173,Neurja,227,14.743
+NARAVNE NESREČE,2013,1.202,Neurja,178,14.093
+NARAVNE NESREČE,2014,1.986,Neurja,356,14.571
+NARAVNE NESREČE,2015,841,Neurja,97,14.664
+NARAVNE NESREČE,2016,1.193,Neurja,265,15.841
+NARAVNE NESREČE,2017,1.207,Neurja,392,15.706
+NARAVNE NESREČE,2005,670,Močan veter,39,11.042
+NARAVNE NESREČE,2006,745,Močan veter,58,13.236
+NARAVNE NESREČE,2007,781,Močan veter,76,13.283
+NARAVNE NESREČE,2008,960,Močan veter,102,12.511
+NARAVNE NESREČE,2009,1.075,Močan veter,70,13.742
+NARAVNE NESREČE,2010,828,Močan veter,98,11.665
+NARAVNE NESREČE,2011,584,Močan veter,81,13.589
+NARAVNE NESREČE,2012,1.173,Močan veter,143,14.743
+NARAVNE NESREČE,2013,1.202,Močan veter,178,14.093
+NARAVNE NESREČE,2014,1.986,Močan veter,143,14.571
+NARAVNE NESREČE,2015,841,Močan veter,237,14.664
+NARAVNE NESREČE,2016,1.193,Močan veter,193,15.841
+NARAVNE NESREČE,2017,1.207,Močan veter,229,15.706
+NARAVNE NESREČE,2005,670,Udari strel,21,11.042
+NARAVNE NESREČE,2006,745,Udari strel,9,13.236
+NARAVNE NESREČE,2007,781,Udari strel,14,13.283
+NARAVNE NESREČE,2008,960,Udari strel,22,12.511
+NARAVNE NESREČE,2009,1.075,Udari strel,14,13.742
+NARAVNE NESREČE,2010,828,Udari strel,11,11.665
+NARAVNE NESREČE,2011,584,Udari strel,22,13.589
+NARAVNE NESREČE,2012,1.173,Udari strel,17,14.743
+NARAVNE NESREČE,2013,1.202,Udari strel,9,14.093
+NARAVNE NESREČE,2014,1.986,Udari strel,25,14.571
+NARAVNE NESREČE,2015,841,Udari strel,18,14.664
+NARAVNE NESREČE,2016,1.193,Udari strel,14,15.841
+NARAVNE NESREČE,2017,1.207,Udari strel,41,15.706
+NARAVNE NESREČE,2005,670,Žled,,11.042
+NARAVNE NESREČE,2006,745,Žled,,13.236
+NARAVNE NESREČE,2007,781,Žled,,13.283
+NARAVNE NESREČE,2008,960,Žled,,12.511
+NARAVNE NESREČE,2009,1.075,Žled,2,13.742
+NARAVNE NESREČE,2010,828,Žled,7,11.665
+NARAVNE NESREČE,2011,584,Žled,,13.589
+NARAVNE NESREČE,2012,1.173,Žled,3,14.743
+NARAVNE NESREČE,2013,1.202,Žled,,14.093
+NARAVNE NESREČE,2014,1.986,Žled,258,14.571
+NARAVNE NESREČE,2015,841,Žled,,14.664
+NARAVNE NESREČE,2016,1.193,Žled,2,15.841
+NARAVNE NESREČE,2017,1.207,Žled,3,15.706
+NARAVNE NESREČE,2005,670,Pozeba,,11.042
+NARAVNE NESREČE,2006,745,Pozeba,,13.236
+NARAVNE NESREČE,2007,781,Pozeba,,13.283
+NARAVNE NESREČE,2008,960,Pozeba,1,12.511
+NARAVNE NESREČE,2009,1.075,Pozeba,,13.742
+NARAVNE NESREČE,2010,828,Pozeba,,11.665
+NARAVNE NESREČE,2011,584,Pozeba,,13.589
+NARAVNE NESREČE,2012,1.173,Pozeba,,14.743
+NARAVNE NESREČE,2013,1.202,Pozeba,,14.093
+NARAVNE NESREČE,2014,1.986,Pozeba,,14.571
+NARAVNE NESREČE,2015,841,Pozeba,,14.664
+NARAVNE NESREČE,2016,1.193,Pozeba,,15.841
+NARAVNE NESREČE,2017,1.207,Pozeba,1,15.706
+NARAVNE NESREČE,2005,670,Suša,1,11.042
+NARAVNE NESREČE,2006,745,Suša,142,13.236
+NARAVNE NESREČE,2007,781,Suša,66,13.283
+NARAVNE NESREČE,2008,960,Suša,1,12.511
+NARAVNE NESREČE,2009,1.075,Suša,,13.742
+NARAVNE NESREČE,2010,828,Suša,,11.665
+NARAVNE NESREČE,2011,584,Suša,,13.589
+NARAVNE NESREČE,2012,1.173,Suša,115,14.743
+NARAVNE NESREČE,2013,1.202,Suša,3,14.093
+NARAVNE NESREČE,2014,1.986,Suša,,14.571
+NARAVNE NESREČE,2015,841,Suša,,14.664
+NARAVNE NESREČE,2016,1.193,Suša,,15.841
+NARAVNE NESREČE,2017,1.207,Suša,2,15.706
+NARAVNE NESREČE,2005,670,Hud mraz,3,11.042
+NARAVNE NESREČE,2006,745,Hud mraz,4,13.236
+NARAVNE NESREČE,2007,781,Hud mraz,,13.283
+NARAVNE NESREČE,2008,960,Hud mraz,4,12.511
+NARAVNE NESREČE,2009,1.075,Hud mraz,1,13.742
+NARAVNE NESREČE,2010,828,Hud mraz,,11.665
+NARAVNE NESREČE,2011,584,Hud mraz,,13.589
+NARAVNE NESREČE,2012,1.173,Hud mraz,27,14.743
+NARAVNE NESREČE,2013,1.202,Hud mraz,,14.093
+NARAVNE NESREČE,2014,1.986,Hud mraz,,14.571
+NARAVNE NESREČE,2015,841,Hud mraz,,14.664
+NARAVNE NESREČE,2016,1.193,Hud mraz,,15.841
+NARAVNE NESREČE,2017,1.207,Hud mraz,8,15.706
+NARAVNE NESREČE,2005,670,Huda vročina,,11.042
+NARAVNE NESREČE,2006,745,Huda vročina,,13.236
+NARAVNE NESREČE,2007,781,Huda vročina,,13.283
+NARAVNE NESREČE,2008,960,Huda vročina,,12.511
+NARAVNE NESREČE,2009,1.075,Huda vročina,,13.742
+NARAVNE NESREČE,2010,828,Huda vročina,,11.665
+NARAVNE NESREČE,2011,584,Huda vročina,4,13.589
+NARAVNE NESREČE,2012,1.173,Huda vročina,1,14.743
+NARAVNE NESREČE,2013,1.202,Huda vročina,3,14.093
+NARAVNE NESREČE,2014,1.986,Huda vročina,,14.571
+NARAVNE NESREČE,2015,841,Huda vročina,,14.664
+NARAVNE NESREČE,2016,1.193,Huda vročina,,15.841
+NARAVNE NESREČE,2017,1.207,Huda vročina,,15.706
+NARAVNE NESREČE,2005,670,Prekinitev prometa zaradi naravnih pojavov,25,11.042
+NARAVNE NESREČE,2006,745,Prekinitev prometa zaradi naravnih pojavov,30,13.236
+NARAVNE NESREČE,2007,781,Prekinitev prometa zaradi naravnih pojavov,21,13.283
+NARAVNE NESREČE,2008,960,Prekinitev prometa zaradi naravnih pojavov,24,12.511
+NARAVNE NESREČE,2009,1.075,Prekinitev prometa zaradi naravnih pojavov,30,13.742
+NARAVNE NESREČE,2010,828,Prekinitev prometa zaradi naravnih pojavov,28,11.665
+NARAVNE NESREČE,2011,584,Prekinitev prometa zaradi naravnih pojavov,35,13.589
+NARAVNE NESREČE,2012,1.173,Prekinitev prometa zaradi naravnih pojavov,39,14.743
+NARAVNE NESREČE,2013,1.202,Prekinitev prometa zaradi naravnih pojavov,52,14.093
+NARAVNE NESREČE,2014,1.986,Prekinitev prometa zaradi naravnih pojavov,37,14.571
+NARAVNE NESREČE,2015,841,Prekinitev prometa zaradi naravnih pojavov,47,14.664
+NARAVNE NESREČE,2016,1.193,Prekinitev prometa zaradi naravnih pojavov,59,15.841
+NARAVNE NESREČE,2017,1.207,Prekinitev prometa zaradi naravnih pojavov,58,15.706
+NARAVNE NESREČE,2005,670,"Epidemije in okužbe ljudi, živali in rastlin",1,11.042
+NARAVNE NESREČE,2006,745,"Epidemije in okužbe ljudi, živali in rastlin",9,13.236
+NARAVNE NESREČE,2007,781,"Epidemije in okužbe ljudi, živali in rastlin",10,13.283
+NARAVNE NESREČE,2008,960,"Epidemije in okužbe ljudi, živali in rastlin",28,12.511
+NARAVNE NESREČE,2009,1.075,"Epidemije in okužbe ljudi, živali in rastlin",12,13.742
+NARAVNE NESREČE,2010,828,"Epidemije in okužbe ljudi, živali in rastlin",6,11.665
+NARAVNE NESREČE,2011,584,"Epidemije in okužbe ljudi, živali in rastlin",48,13.589
+NARAVNE NESREČE,2012,1.173,"Epidemije in okužbe ljudi, živali in rastlin",33,14.743
+NARAVNE NESREČE,2013,1.202,"Epidemije in okužbe ljudi, živali in rastlin",20,14.093
+NARAVNE NESREČE,2014,1.986,"Epidemije in okužbe ljudi, živali in rastlin",16,14.571
+NARAVNE NESREČE,2015,841,"Epidemije in okužbe ljudi, živali in rastlin",34,14.664
+NARAVNE NESREČE,2016,1.193,"Epidemije in okužbe ljudi, živali in rastlin",18,15.841
+NARAVNE NESREČE,2017,1.207,"Epidemije in okužbe ljudi, živali in rastlin",74,15.706
+DRUGE NESREČE,2005,549,Nesreče v gorah,133,11.042
+DRUGE NESREČE,2006,982,Nesreče v gorah,184,13.236
+DRUGE NESREČE,2007,992,Nesreče v gorah,216,13.283
+DRUGE NESREČE,2008,1.045,Nesreče v gorah,173,12.511
+DRUGE NESREČE,2009,1.130,Nesreče v gorah,229,13.742
+DRUGE NESREČE,2010,1.017,Nesreče v gorah,192,11.665
+DRUGE NESREČE,2011,1.169,Nesreče v gorah,219,13.589
+DRUGE NESREČE,2012,1.268,Nesreče v gorah,213,14.743
+DRUGE NESREČE,2013,1.178,Nesreče v gorah,206,14.093
+DRUGE NESREČE,2014,1.203,Nesreče v gorah,160,14.571
+DRUGE NESREČE,2015,1.505,Nesreče v gorah,191,14.664
+DRUGE NESREČE,2016,1.688,Nesreče v gorah,235,15.841
+DRUGE NESREČE,2017,1.844,Nesreče v gorah,213,15.706
+DRUGE NESREČE,2005,549,Ogrožanja ali napad živali na ljudi in stvari,,11.042
+DRUGE NESREČE,2006,982,Ogrožanja ali napad živali na ljudi in stvari,3,13.236
+DRUGE NESREČE,2007,992,Ogrožanja ali napad živali na ljudi in stvari,4,13.283
+DRUGE NESREČE,2008,1.045,Ogrožanja ali napad živali na ljudi in stvari,7,12.511
+DRUGE NESREČE,2009,1.130,Ogrožanja ali napad živali na ljudi in stvari,12,13.742
+DRUGE NESREČE,2010,1.017,Ogrožanja ali napad živali na ljudi in stvari,17,11.665
+DRUGE NESREČE,2011,1.169,Ogrožanja ali napad živali na ljudi in stvari,46,13.589
+DRUGE NESREČE,2012,1.268,Ogrožanja ali napad živali na ljudi in stvari,42,14.743
+DRUGE NESREČE,2013,1.178,Ogrožanja ali napad živali na ljudi in stvari,92,14.093
+DRUGE NESREČE,2014,1.203,Ogrožanja ali napad živali na ljudi in stvari,48,14.571
+DRUGE NESREČE,2015,1.505,Ogrožanja ali napad živali na ljudi in stvari,105,14.664
+DRUGE NESREČE,2016,1.688,Ogrožanja ali napad živali na ljudi in stvari,117,15.841
+DRUGE NESREČE,2017,1.844,Ogrožanja ali napad živali na ljudi in stvari,122,15.706
+DRUGE NESREČE,2005,549,"Nesreče pri športnih, rekreativnih in drugih aktivnostih",67,11.042
+DRUGE NESREČE,2006,982,"Nesreče pri športnih, rekreativnih in drugih aktivnostih",162,13.236
+DRUGE NESREČE,2007,992,"Nesreče pri športnih, rekreativnih in drugih aktivnostih",122,13.283
+DRUGE NESREČE,2008,1.045,"Nesreče pri športnih, rekreativnih in drugih aktivnostih",116,12.511
+DRUGE NESREČE,2009,1.130,"Nesreče pri športnih, rekreativnih in drugih aktivnostih",171,13.742
+DRUGE NESREČE,2010,1.017,"Nesreče pri športnih, rekreativnih in drugih aktivnostih",184,11.665
+DRUGE NESREČE,2011,1.169,"Nesreče pri športnih, rekreativnih in drugih aktivnostih",201,13.589
+DRUGE NESREČE,2012,1.268,"Nesreče pri športnih, rekreativnih in drugih aktivnostih",245,14.743
+DRUGE NESREČE,2013,1.178,"Nesreče pri športnih, rekreativnih in drugih aktivnostih",201,14.093
+DRUGE NESREČE,2014,1.203,"Nesreče pri športnih, rekreativnih in drugih aktivnostih",183,14.571
+DRUGE NESREČE,2015,1.505,"Nesreče pri športnih, rekreativnih in drugih aktivnostih",237,14.664
+DRUGE NESREČE,2016,1.688,"Nesreče pri športnih, rekreativnih in drugih aktivnostih",243,15.841
+DRUGE NESREČE,2017,1.844,"Nesreče pri športnih, rekreativnih in drugih aktivnostih",267,15.706
+DRUGE NESREČE,2005,549,"Nesreče na žičnicah, vzpenjačah",1,11.042
+DRUGE NESREČE,2006,982,"Nesreče na žičnicah, vzpenjačah",2,13.236
+DRUGE NESREČE,2007,992,"Nesreče na žičnicah, vzpenjačah",3,13.283
+DRUGE NESREČE,2008,1.045,"Nesreče na žičnicah, vzpenjačah",4,12.511
+DRUGE NESREČE,2009,1.130,"Nesreče na žičnicah, vzpenjačah",4,13.742
+DRUGE NESREČE,2010,1.017,"Nesreče na žičnicah, vzpenjačah",1,11.665
+DRUGE NESREČE,2011,1.169,"Nesreče na žičnicah, vzpenjačah",1,13.589
+DRUGE NESREČE,2012,1.268,"Nesreče na žičnicah, vzpenjačah",1,14.743
+DRUGE NESREČE,2013,1.178,"Nesreče na žičnicah, vzpenjačah",1,14.093
+DRUGE NESREČE,2014,1.203,"Nesreče na žičnicah, vzpenjačah",1,14.571
+DRUGE NESREČE,2015,1.505,"Nesreče na žičnicah, vzpenjačah",1,14.664
+DRUGE NESREČE,2016,1.688,"Nesreče na žičnicah, vzpenjačah",,15.841
+DRUGE NESREČE,2017,1.844,"Nesreče na žičnicah, vzpenjačah",2,15.706
+DRUGE NESREČE,2005,549,Delovne in rudniške nesreče,106,11.042
+DRUGE NESREČE,2006,982,Delovne in rudniške nesreče,389,13.236
+DRUGE NESREČE,2007,992,Delovne in rudniške nesreče,323,13.283
+DRUGE NESREČE,2008,1.045,Delovne in rudniške nesreče,395,12.511
+DRUGE NESREČE,2009,1.130,Delovne in rudniške nesreče,353,13.742
+DRUGE NESREČE,2010,1.017,Delovne in rudniške nesreče,281,11.665
+DRUGE NESREČE,2011,1.169,Delovne in rudniške nesreče,284,13.589
+DRUGE NESREČE,2012,1.268,Delovne in rudniške nesreče,281,14.743
+DRUGE NESREČE,2013,1.178,Delovne in rudniške nesreče,320,14.093
+DRUGE NESREČE,2014,1.203,Delovne in rudniške nesreče,347,14.571
+DRUGE NESREČE,2015,1.505,Delovne in rudniške nesreče,371,14.664
+DRUGE NESREČE,2016,1.688,Delovne in rudniške nesreče,370,15.841
+DRUGE NESREČE,2017,1.844,Delovne in rudniške nesreče,382,15.706
+DRUGE NESREČE,2005,549,Reševanja obolelih oseb,136,11.042
+DRUGE NESREČE,2006,982,Reševanja obolelih oseb,135,13.236
+DRUGE NESREČE,2007,992,Reševanja obolelih oseb,200,13.283
+DRUGE NESREČE,2008,1.045,Reševanja obolelih oseb,232,12.511
+DRUGE NESREČE,2009,1.130,Reševanja obolelih oseb,226,13.742
+DRUGE NESREČE,2010,1.017,Reševanja obolelih oseb,206,11.665
+DRUGE NESREČE,2011,1.169,Reševanja obolelih oseb,270,13.589
+DRUGE NESREČE,2012,1.268,Reševanja obolelih oseb,328,14.743
+DRUGE NESREČE,2013,1.178,Reševanja obolelih oseb,224,14.093
+DRUGE NESREČE,2014,1.203,Reševanja obolelih oseb,286,14.571
+DRUGE NESREČE,2015,1.505,Reševanja obolelih oseb,443,14.664
+DRUGE NESREČE,2016,1.688,Reševanja obolelih oseb,535,15.841
+DRUGE NESREČE,2017,1.844,Reševanja obolelih oseb,697,15.706
+DRUGE NESREČE,2005,549,Nesreče v podzemskih jamah in breznih,4,11.042
+DRUGE NESREČE,2006,982,Nesreče v podzemskih jamah in breznih,7,13.236
+DRUGE NESREČE,2007,992,Nesreče v podzemskih jamah in breznih,4,13.283
+DRUGE NESREČE,2008,1.045,Nesreče v podzemskih jamah in breznih,5,12.511
+DRUGE NESREČE,2009,1.130,Nesreče v podzemskih jamah in breznih,3,13.742
+DRUGE NESREČE,2010,1.017,Nesreče v podzemskih jamah in breznih,5,11.665
+DRUGE NESREČE,2011,1.169,Nesreče v podzemskih jamah in breznih,3,13.589
+DRUGE NESREČE,2012,1.268,Nesreče v podzemskih jamah in breznih,6,14.743
+DRUGE NESREČE,2013,1.178,Nesreče v podzemskih jamah in breznih,2,14.093
+DRUGE NESREČE,2014,1.203,Nesreče v podzemskih jamah in breznih,2,14.571
+DRUGE NESREČE,2015,1.505,Nesreče v podzemskih jamah in breznih,3,14.664
+DRUGE NESREČE,2016,1.688,Nesreče v podzemskih jamah in breznih,4,15.841
+DRUGE NESREČE,2017,1.844,Nesreče v podzemskih jamah in breznih,9,15.706
+DRUGE NESREČE,2005,549,Nesreče na vodi in v vodi,33,11.042
+DRUGE NESREČE,2006,982,Nesreče na vodi in v vodi,41,13.236
+DRUGE NESREČE,2007,992,Nesreče na vodi in v vodi,33,13.283
+DRUGE NESREČE,2008,1.045,Nesreče na vodi in v vodi,32,12.511
+DRUGE NESREČE,2009,1.130,Nesreče na vodi in v vodi,52,13.742
+DRUGE NESREČE,2010,1.017,Nesreče na vodi in v vodi,55,11.665
+DRUGE NESREČE,2011,1.169,Nesreče na vodi in v vodi,54,13.589
+DRUGE NESREČE,2012,1.268,Nesreče na vodi in v vodi,59,14.743
+DRUGE NESREČE,2013,1.178,Nesreče na vodi in v vodi,56,14.093
+DRUGE NESREČE,2014,1.203,Nesreče na vodi in v vodi,65,14.571
+DRUGE NESREČE,2015,1.505,Nesreče na vodi in v vodi,53,14.664
+DRUGE NESREČE,2016,1.688,Nesreče na vodi in v vodi,60,15.841
+DRUGE NESREČE,2017,1.844,Nesreče na vodi in v vodi,52,15.706
+DRUGE NESREČE,2005,549,"Pogrešane osebe, živali in stvari",69,11.042
+DRUGE NESREČE,2006,982,"Pogrešane osebe, živali in stvari",59,13.236
+DRUGE NESREČE,2007,992,"Pogrešane osebe, živali in stvari",87,13.283
+DRUGE NESREČE,2008,1.045,"Pogrešane osebe, živali in stvari",81,12.511
+DRUGE NESREČE,2009,1.130,"Pogrešane osebe, živali in stvari",80,13.742
+DRUGE NESREČE,2010,1.017,"Pogrešane osebe, živali in stvari",76,11.665
+DRUGE NESREČE,2011,1.169,"Pogrešane osebe, živali in stvari",91,13.589
+DRUGE NESREČE,2012,1.268,"Pogrešane osebe, živali in stvari",93,14.743
+DRUGE NESREČE,2013,1.178,"Pogrešane osebe, živali in stvari",76,14.093
+DRUGE NESREČE,2014,1.203,"Pogrešane osebe, živali in stvari",111,14.571
+DRUGE NESREČE,2015,1.505,"Pogrešane osebe, živali in stvari",101,14.664
+DRUGE NESREČE,2016,1.688,"Pogrešane osebe, živali in stvari",124,15.841
+DRUGE NESREČE,2017,1.844,"Pogrešane osebe, živali in stvari",100,15.706
+NESREČE V PROMETU,2005,1.533,Nesreče v cestnem prometu,1.509,11.042
+NESREČE V PROMETU,2006,2.157,Nesreče v cestnem prometu,2.119,13.236
+NESREČE V PROMETU,2007,2.143,Nesreče v cestnem prometu,2.101,13.283
+NESREČE V PROMETU,2008,1.952,Nesreče v cestnem prometu,1.905,12.511
+NESREČE V PROMETU,2009,2.060,Nesreče v cestnem prometu,2.022,13.742
+NESREČE V PROMETU,2010,1.804,Nesreče v cestnem prometu,1.772,11.665
+NESREČE V PROMETU,2011,2.105,Nesreče v cestnem prometu,2.048,13.589
+NESREČE V PROMETU,2012,2.074,Nesreče v cestnem prometu,2.033,14.743
+NESREČE V PROMETU,2013,2.364,Nesreče v cestnem prometu,2.317,14.093
+NESREČE V PROMETU,2014,2.273,Nesreče v cestnem prometu,2.229,14.571
+NESREČE V PROMETU,2015,2.368,Nesreče v cestnem prometu,2.330,14.664
+NESREČE V PROMETU,2016,2.688,Nesreče v cestnem prometu,2.640,15.841
+NESREČE V PROMETU,2017,2.129,Nesreče v cestnem prometu,2.099,15.706
+NESREČE V PROMETU,2005,1.533,Nesreče v železniškem prometu,20,11.042
+NESREČE V PROMETU,2006,2.157,Nesreče v železniškem prometu,30,13.236
+NESREČE V PROMETU,2007,2.143,Nesreče v železniškem prometu,35,13.283
+NESREČE V PROMETU,2008,1.952,Nesreče v železniškem prometu,35,12.511
+NESREČE V PROMETU,2009,2.060,Nesreče v železniškem prometu,29,13.742
+NESREČE V PROMETU,2010,1.804,Nesreče v železniškem prometu,23,11.665
+NESREČE V PROMETU,2011,2.105,Nesreče v železniškem prometu,42,13.589
+NESREČE V PROMETU,2012,2.074,Nesreče v železniškem prometu,37,14.743
+NESREČE V PROMETU,2013,2.364,Nesreče v železniškem prometu,34,14.093
+NESREČE V PROMETU,2014,2.273,Nesreče v železniškem prometu,38,14.571
+NESREČE V PROMETU,2015,2.368,Nesreče v železniškem prometu,30,14.664
+NESREČE V PROMETU,2016,2.688,Nesreče v železniškem prometu,42,15.841
+NESREČE V PROMETU,2017,2.129,Nesreče v železniškem prometu,24,15.706
+NESREČE V PROMETU,2005,1.533,Nesreče v pomorskem prometu,1,11.042
+NESREČE V PROMETU,2006,2.157,Nesreče v pomorskem prometu,6,13.236
+NESREČE V PROMETU,2007,2.143,Nesreče v pomorskem prometu,1,13.283
+NESREČE V PROMETU,2008,1.952,Nesreče v pomorskem prometu,2,12.511
+NESREČE V PROMETU,2009,2.060,Nesreče v pomorskem prometu,1,13.742
+NESREČE V PROMETU,2010,1.804,Nesreče v pomorskem prometu,5,11.665
+NESREČE V PROMETU,2011,2.105,Nesreče v pomorskem prometu,3,13.589
+NESREČE V PROMETU,2012,2.074,Nesreče v pomorskem prometu,2,14.743
+NESREČE V PROMETU,2013,2.364,Nesreče v pomorskem prometu,4,14.093
+NESREČE V PROMETU,2014,2.273,Nesreče v pomorskem prometu,2,14.571
+NESREČE V PROMETU,2015,2.368,Nesreče v pomorskem prometu,1,14.664
+NESREČE V PROMETU,2016,2.688,Nesreče v pomorskem prometu,,15.841
+NESREČE V PROMETU,2017,2.129,Nesreče v pomorskem prometu,2,15.706
+NESREČE V PROMETU,2005,1.533,Nesreče v zračnem prometu,3,11.042
+NESREČE V PROMETU,2006,2.157,Nesreče v zračnem prometu,2,13.236
+NESREČE V PROMETU,2007,2.143,Nesreče v zračnem prometu,6,13.283
+NESREČE V PROMETU,2008,1.952,Nesreče v zračnem prometu,10,12.511
+NESREČE V PROMETU,2009,2.060,Nesreče v zračnem prometu,8,13.742
+NESREČE V PROMETU,2010,1.804,Nesreče v zračnem prometu,4,11.665
+NESREČE V PROMETU,2011,2.105,Nesreče v zračnem prometu,12,13.589
+NESREČE V PROMETU,2012,2.074,Nesreče v zračnem prometu,2,14.743
+NESREČE V PROMETU,2013,2.364,Nesreče v zračnem prometu,9,14.093
+NESREČE V PROMETU,2014,2.273,Nesreče v zračnem prometu,4,14.571
+NESREČE V PROMETU,2015,2.368,Nesreče v zračnem prometu,7,14.664
+NESREČE V PROMETU,2016,2.688,Nesreče v zračnem prometu,6,15.841
+NESREČE V PROMETU,2017,2.129,Nesreče v zračnem prometu,4,15.706
+POŽARI IN EKSPLOZIJE,2005,5.054,Požari v objektih,2.203,11.042
+POŽARI IN EKSPLOZIJE,2006,5.384,Požari v objektih,2.280,13.236
+POŽARI IN EKSPLOZIJE,2007,5.812,Požari v objektih,2.314,13.283
+POŽARI IN EKSPLOZIJE,2008,4.872,Požari v objektih,2.172,12.511
+POŽARI IN EKSPLOZIJE,2009,5.071,Požari v objektih,2.179,13.742
+POŽARI IN EKSPLOZIJE,2010,3.811,Požari v objektih,1.907,11.665
+POŽARI IN EKSPLOZIJE,2011,5.259,Požari v objektih,2.249,13.589
+POŽARI IN EKSPLOZIJE,2012,5.556,Požari v objektih,2.185,14.743
+POŽARI IN EKSPLOZIJE,2013,4.159,Požari v objektih,2.063,14.093
+POŽARI IN EKSPLOZIJE,2014,3.579,Požari v objektih,1.962,14.571
+POŽARI IN EKSPLOZIJE,2015,4.244,Požari v objektih,2.102,14.664
+POŽARI IN EKSPLOZIJE,2016,4.401,Požari v objektih,2.209,15.841
+POŽARI IN EKSPLOZIJE,2017,4.831,Požari v objektih,1.973,15.706
+POŽARI IN EKSPLOZIJE,2005,5.054,Požari na prometnih sredstvih,545,11.042
+POŽARI IN EKSPLOZIJE,2006,5.384,Požari na prometnih sredstvih,621,13.236
+POŽARI IN EKSPLOZIJE,2007,5.812,Požari na prometnih sredstvih,589,13.283
+POŽARI IN EKSPLOZIJE,2008,4.872,Požari na prometnih sredstvih,593,12.511
+POŽARI IN EKSPLOZIJE,2009,5.071,Požari na prometnih sredstvih,487,13.742
+POŽARI IN EKSPLOZIJE,2010,3.811,Požari na prometnih sredstvih,437,11.665
+POŽARI IN EKSPLOZIJE,2011,5.259,Požari na prometnih sredstvih,453,13.589
+POŽARI IN EKSPLOZIJE,2012,5.556,Požari na prometnih sredstvih,403,14.743
+POŽARI IN EKSPLOZIJE,2013,4.159,Požari na prometnih sredstvih,391,14.093
+POŽARI IN EKSPLOZIJE,2014,3.579,Požari na prometnih sredstvih,394,14.571
+POŽARI IN EKSPLOZIJE,2015,4.244,Požari na prometnih sredstvih,399,14.664
+POŽARI IN EKSPLOZIJE,2016,4.401,Požari na prometnih sredstvih,397,15.841
+POŽARI IN EKSPLOZIJE,2017,4.831,Požari na prometnih sredstvih,391,15.706
+POŽARI IN EKSPLOZIJE,2005,5.054,Požari v naravi oziroma na prostem,1.756,11.042
+POŽARI IN EKSPLOZIJE,2006,5.384,Požari v naravi oziroma na prostem,1.857,13.236
+POŽARI IN EKSPLOZIJE,2007,5.812,Požari v naravi oziroma na prostem,2.243,13.283
+POŽARI IN EKSPLOZIJE,2008,4.872,Požari v naravi oziroma na prostem,1.523,12.511
+POŽARI IN EKSPLOZIJE,2009,5.071,Požari v naravi oziroma na prostem,1.840,13.742
+POŽARI IN EKSPLOZIJE,2010,3.811,Požari v naravi oziroma na prostem,1.040,11.665
+POŽARI IN EKSPLOZIJE,2011,5.259,Požari v naravi oziroma na prostem,1.940,13.589
+POŽARI IN EKSPLOZIJE,2012,5.556,Požari v naravi oziroma na prostem,2.430,14.743
+POŽARI IN EKSPLOZIJE,2013,4.159,Požari v naravi oziroma na prostem,1.314,14.093
+POŽARI IN EKSPLOZIJE,2014,3.579,Požari v naravi oziroma na prostem,842,14.571
+POŽARI IN EKSPLOZIJE,2015,4.244,Požari v naravi oziroma na prostem,1.348,14.664
+POŽARI IN EKSPLOZIJE,2016,4.401,Požari v naravi oziroma na prostem,1.367,15.841
+POŽARI IN EKSPLOZIJE,2017,4.831,Požari v naravi oziroma na prostem,2.116,15.706
+POŽARI IN EKSPLOZIJE,2005,5.054,Požari v komunalnih in drugih zabojnikih,528,11.042
+POŽARI IN EKSPLOZIJE,2006,5.384,Požari v komunalnih in drugih zabojnikih,604,13.236
+POŽARI IN EKSPLOZIJE,2007,5.812,Požari v komunalnih in drugih zabojnikih,642,13.283
+POŽARI IN EKSPLOZIJE,2008,4.872,Požari v komunalnih in drugih zabojnikih,559,12.511
+POŽARI IN EKSPLOZIJE,2009,5.071,Požari v komunalnih in drugih zabojnikih,552,13.742
+POŽARI IN EKSPLOZIJE,2010,3.811,Požari v komunalnih in drugih zabojnikih,400,11.665
+POŽARI IN EKSPLOZIJE,2011,5.259,Požari v komunalnih in drugih zabojnikih,599,13.589
+POŽARI IN EKSPLOZIJE,2012,5.556,Požari v komunalnih in drugih zabojnikih,523,14.743
+POŽARI IN EKSPLOZIJE,2013,4.159,Požari v komunalnih in drugih zabojnikih,379,14.093
+POŽARI IN EKSPLOZIJE,2014,3.579,Požari v komunalnih in drugih zabojnikih,362,14.571
+POŽARI IN EKSPLOZIJE,2015,4.244,Požari v komunalnih in drugih zabojnikih,380,14.664
+POŽARI IN EKSPLOZIJE,2016,4.401,Požari v komunalnih in drugih zabojnikih,412,15.841
+POŽARI IN EKSPLOZIJE,2017,4.831,Požari v komunalnih in drugih zabojnikih,343,15.706
+POŽARI IN EKSPLOZIJE,2005,5.054,Eksplozije,22,11.042
+POŽARI IN EKSPLOZIJE,2006,5.384,Eksplozije,22,13.236
+POŽARI IN EKSPLOZIJE,2007,5.812,Eksplozije,24,13.283
+POŽARI IN EKSPLOZIJE,2008,4.872,Eksplozije,25,12.511
+POŽARI IN EKSPLOZIJE,2009,5.071,Eksplozije,13,13.742
+POŽARI IN EKSPLOZIJE,2010,3.811,Eksplozije,27,11.665
+POŽARI IN EKSPLOZIJE,2011,5.259,Eksplozije,18,13.589
+POŽARI IN EKSPLOZIJE,2012,5.556,Eksplozije,15,14.743
+POŽARI IN EKSPLOZIJE,2013,4.159,Eksplozije,12,14.093
+POŽARI IN EKSPLOZIJE,2014,3.579,Eksplozije,19,14.571
+POŽARI IN EKSPLOZIJE,2015,4.244,Eksplozije,15,14.664
+POŽARI IN EKSPLOZIJE,2016,4.401,Eksplozije,16,15.841
+POŽARI IN EKSPLOZIJE,2017,4.831,Eksplozije,8,15.706
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2005,725,Sproščanja nevarnih plinov,149,11.042
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2006,670,Sproščanja nevarnih plinov,171,13.236
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2007,718,Sproščanja nevarnih plinov,204,13.283
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2008,630,Sproščanja nevarnih plinov,179,12.511
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2009,656,Sproščanja nevarnih plinov,153,13.742
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2010,579,Sproščanja nevarnih plinov,127,11.665
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2011,627,Sproščanja nevarnih plinov,184,13.589
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2012,543,Sproščanja nevarnih plinov,157,14.743
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2013,631,Sproščanja nevarnih plinov,206,14.093
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2014,657,Sproščanja nevarnih plinov,198,14.571
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2015,703,Sproščanja nevarnih plinov,241,14.664
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2016,641,Sproščanja nevarnih plinov,199,15.841
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2017,621,Sproščanja nevarnih plinov,202,15.706
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2005,725,Nesreče z nevarnimi snovmi,433,11.042
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2006,670,Nesreče z nevarnimi snovmi,445,13.236
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2007,718,Nesreče z nevarnimi snovmi,503,13.283
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2008,630,Nesreče z nevarnimi snovmi,442,12.511
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2009,656,Nesreče z nevarnimi snovmi,497,13.742
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2010,579,Nesreče z nevarnimi snovmi,441,11.665
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2011,627,Nesreče z nevarnimi snovmi,433,13.589
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2012,543,Nesreče z nevarnimi snovmi,375,14.743
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2013,631,Nesreče z nevarnimi snovmi,415,14.093
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2014,657,Nesreče z nevarnimi snovmi,448,14.571
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2015,703,Nesreče z nevarnimi snovmi,449,14.664
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2016,641,Nesreče z nevarnimi snovmi,435,15.841
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2017,621,Nesreče z nevarnimi snovmi,413,15.706
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2005,725,Onesnaženja zraka,143,11.042
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2006,670,Onesnaženja zraka,54,13.236
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2007,718,Onesnaženja zraka,11,13.283
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2008,630,Onesnaženja zraka,9,12.511
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2009,656,Onesnaženja zraka,6,13.742
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2010,579,Onesnaženja zraka,11,11.665
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2011,627,Onesnaženja zraka,10,13.589
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2012,543,Onesnaženja zraka,11,14.743
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2013,631,Onesnaženja zraka,10,14.093
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2014,657,Onesnaženja zraka,11,14.571
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2015,703,Onesnaženja zraka,13,14.664
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2016,641,Onesnaženja zraka,7,15.841
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2017,621,Onesnaženja zraka,6,15.706
+JEDRSKI IN DRUGI DOGODKI,2005,,Jedrska ali radiološka nevarnost,,11.042
+JEDRSKI IN DRUGI DOGODKI,2006,1,Jedrska ali radiološka nevarnost,1,13.236
+JEDRSKI IN DRUGI DOGODKI,2007,1,Jedrska ali radiološka nevarnost,1,13.283
+JEDRSKI IN DRUGI DOGODKI,2008,1,Jedrska ali radiološka nevarnost,1,12.511
+JEDRSKI IN DRUGI DOGODKI,2009,,Jedrska ali radiološka nevarnost,,13.742
+JEDRSKI IN DRUGI DOGODKI,2010,,Jedrska ali radiološka nevarnost,,11.665
+JEDRSKI IN DRUGI DOGODKI,2011,1,Jedrska ali radiološka nevarnost,1,13.589
+JEDRSKI IN DRUGI DOGODKI,2012,2,Jedrska ali radiološka nevarnost,2,14.743
+JEDRSKI IN DRUGI DOGODKI,2013,7,Jedrska ali radiološka nevarnost,,14.093
+JEDRSKI IN DRUGI DOGODKI,2014,5,Jedrska ali radiološka nevarnost,,14.571
+JEDRSKI IN DRUGI DOGODKI,2015,65,Jedrska ali radiološka nevarnost,,14.664
+JEDRSKI IN DRUGI DOGODKI,2016,17,Jedrska ali radiološka nevarnost,,15.841
+JEDRSKI IN DRUGI DOGODKI,2017,14,Jedrska ali radiološka nevarnost,1,15.706
+JEDRSKI IN DRUGI DOGODKI,2005,,"Teroristični napadi, demonstracije, množične migracije, vojne",,11.042
+JEDRSKI IN DRUGI DOGODKI,2006,1,"Teroristični napadi, demonstracije, množične migracije, vojne",,13.236
+JEDRSKI IN DRUGI DOGODKI,2007,1,"Teroristični napadi, demonstracije, množične migracije, vojne",,13.283
+JEDRSKI IN DRUGI DOGODKI,2008,1,"Teroristični napadi, demonstracije, množične migracije, vojne",,12.511
+JEDRSKI IN DRUGI DOGODKI,2009,,"Teroristični napadi, demonstracije, množične migracije, vojne",,13.742
+JEDRSKI IN DRUGI DOGODKI,2010,,"Teroristični napadi, demonstracije, množične migracije, vojne",,11.665
+JEDRSKI IN DRUGI DOGODKI,2011,1,"Teroristični napadi, demonstracije, množične migracije, vojne",,13.589
+JEDRSKI IN DRUGI DOGODKI,2012,2,"Teroristični napadi, demonstracije, množične migracije, vojne",,14.743
+JEDRSKI IN DRUGI DOGODKI,2013,7,"Teroristični napadi, demonstracije, množične migracije, vojne",7,14.093
+JEDRSKI IN DRUGI DOGODKI,2014,5,"Teroristični napadi, demonstracije, množične migracije, vojne",5,14.571
+JEDRSKI IN DRUGI DOGODKI,2015,65,"Teroristični napadi, demonstracije, množične migracije, vojne",65,14.664
+JEDRSKI IN DRUGI DOGODKI,2016,17,"Teroristični napadi, demonstracije, množične migracije, vojne",17,15.841
+JEDRSKI IN DRUGI DOGODKI,2017,14,"Teroristični napadi, demonstracije, množične migracije, vojne",13,15.706
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2005,566,Najdbe neeksplodiranih ubojnih sredstev,389,11.042
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2006,614,Najdbe neeksplodiranih ubojnih sredstev,329,13.236
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2007,623,Najdbe neeksplodiranih ubojnih sredstev,371,13.283
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2008,524,Najdbe neeksplodiranih ubojnih sredstev,361,12.511
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2009,616,Najdbe neeksplodiranih ubojnih sredstev,343,13.742
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2010,624,Najdbe neeksplodiranih ubojnih sredstev,414,11.665
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2011,621,Najdbe neeksplodiranih ubojnih sredstev,379,13.589
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2012,813,Najdbe neeksplodiranih ubojnih sredstev,412,14.743
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2013,780,Najdbe neeksplodiranih ubojnih sredstev,428,14.093
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2014,851,Najdbe neeksplodiranih ubojnih sredstev,417,14.571
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2015,804,Najdbe neeksplodiranih ubojnih sredstev,424,14.664
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2016,826,Najdbe neeksplodiranih ubojnih sredstev,410,15.841
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2017,807,Najdbe neeksplodiranih ubojnih sredstev,419,15.706
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2005,566,"Nenačrtne motnje, omejitve, prekinitve, oskrbe",156,11.042
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2006,614,"Nenačrtne motnje, omejitve, prekinitve, oskrbe",270,13.236
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2007,623,"Nenačrtne motnje, omejitve, prekinitve, oskrbe",242,13.283
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2008,524,"Nenačrtne motnje, omejitve, prekinitve, oskrbe",153,12.511
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2009,616,"Nenačrtne motnje, omejitve, prekinitve, oskrbe",267,13.742
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2010,624,"Nenačrtne motnje, omejitve, prekinitve, oskrbe",202,11.665
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2011,621,"Nenačrtne motnje, omejitve, prekinitve, oskrbe",240,13.589
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2012,813,"Nenačrtne motnje, omejitve, prekinitve, oskrbe",397,14.743
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2013,780,"Nenačrtne motnje, omejitve, prekinitve, oskrbe",348,14.093
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2014,851,"Nenačrtne motnje, omejitve, prekinitve, oskrbe",430,14.571
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2015,804,"Nenačrtne motnje, omejitve, prekinitve, oskrbe",377,14.664
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2016,826,"Nenačrtne motnje, omejitve, prekinitve, oskrbe",410,15.841
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2017,807,"Nenačrtne motnje, omejitve, prekinitve, oskrbe",387,15.706
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2005,566,"Poškodbe, porušitve oziroma samoporušitve objektov",21,11.042
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2006,614,"Poškodbe, porušitve oziroma samoporušitve objektov",15,13.236
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2007,623,"Poškodbe, porušitve oziroma samoporušitve objektov",10,13.283
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2008,524,"Poškodbe, porušitve oziroma samoporušitve objektov",10,12.511
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2009,616,"Poškodbe, porušitve oziroma samoporušitve objektov",6,13.742
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2010,624,"Poškodbe, porušitve oziroma samoporušitve objektov",8,11.665
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2011,621,"Poškodbe, porušitve oziroma samoporušitve objektov",2,13.589
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2012,813,"Poškodbe, porušitve oziroma samoporušitve objektov",4,14.743
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2013,780,"Poškodbe, porušitve oziroma samoporušitve objektov",4,14.093
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2014,851,"Poškodbe, porušitve oziroma samoporušitve objektov",4,14.571
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2015,804,"Poškodbe, porušitve oziroma samoporušitve objektov",3,14.664
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2016,826,"Poškodbe, porušitve oziroma samoporušitve objektov",6,15.841
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2017,807,"Poškodbe, porušitve oziroma samoporušitve objektov",1,15.706
+TEHNIČNA IN DRUGA POMOČ,2005,1.945,Tehnična in druga pomoč,1.945,11.042
+TEHNIČNA IN DRUGA POMOČ,2006,2.683,Tehnična in druga pomoč,2.683,13.236
+TEHNIČNA IN DRUGA POMOČ,2007,2.213,Tehnična in druga pomoč,2.213,13.283
+TEHNIČNA IN DRUGA POMOČ,2008,2.527,Tehnična in druga pomoč,2.527,12.511
+TEHNIČNA IN DRUGA POMOČ,2009,3.134,Tehnična in druga pomoč,3.134,13.742
+TEHNIČNA IN DRUGA POMOČ,2010,3.002,Tehnična in druga pomoč,3.002,11.665
+TEHNIČNA IN DRUGA POMOČ,2011,3.223,Tehnična in druga pomoč,3.223,13.589
+TEHNIČNA IN DRUGA POMOČ,2012,3.314,Tehnična in druga pomoč,3.314,14.743
+TEHNIČNA IN DRUGA POMOČ,2013,3.772,Tehnična in druga pomoč,3.772,14.093
+TEHNIČNA IN DRUGA POMOČ,2014,4.017,Tehnična in druga pomoč,4.017,14.571
+TEHNIČNA IN DRUGA POMOČ,2015,4.134,Tehnična in druga pomoč,4.134,14.664
+TEHNIČNA IN DRUGA POMOČ,2016,4.387,Tehnična in druga pomoč,4.387,15.841
+TEHNIČNA IN DRUGA POMOČ,2017,4.253,Tehnična in druga pomoč,4.253,15.706
+
+Chart4_SeriesGroup_label,Chart4_SeriesGroup_Chart4_CategoryGroup_label,Chart4_SeriesGroup_Chart4_CategoryGroup_Value_Y
+DRUGE NESREČE,2005,549
+DRUGE NESREČE,2006,982
+DRUGE NESREČE,2007,992
+DRUGE NESREČE,2008,1045
+DRUGE NESREČE,2009,1130
+DRUGE NESREČE,2010,1017
+DRUGE NESREČE,2011,1169
+DRUGE NESREČE,2012,1268
+DRUGE NESREČE,2013,1178
+DRUGE NESREČE,2014,1203
+DRUGE NESREČE,2015,1505
+DRUGE NESREČE,2016,1688
+DRUGE NESREČE,2017,1844
+JEDRSKI IN DRUGI DOGODKI,2005,
+JEDRSKI IN DRUGI DOGODKI,2006,1
+JEDRSKI IN DRUGI DOGODKI,2007,1
+JEDRSKI IN DRUGI DOGODKI,2008,1
+JEDRSKI IN DRUGI DOGODKI,2009,
+JEDRSKI IN DRUGI DOGODKI,2010,
+JEDRSKI IN DRUGI DOGODKI,2011,1
+JEDRSKI IN DRUGI DOGODKI,2012,2
+JEDRSKI IN DRUGI DOGODKI,2013,7
+JEDRSKI IN DRUGI DOGODKI,2014,5
+JEDRSKI IN DRUGI DOGODKI,2015,65
+JEDRSKI IN DRUGI DOGODKI,2016,17
+JEDRSKI IN DRUGI DOGODKI,2017,14
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2005,566
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2006,614
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2007,623
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2008,524
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2009,616
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2010,624
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2011,621
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2012,813
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2013,780
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2014,851
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2015,804
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2016,826
+"NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV",2017,807
+NARAVNE NESREČE,2005,670
+NARAVNE NESREČE,2006,745
+NARAVNE NESREČE,2007,781
+NARAVNE NESREČE,2008,960
+NARAVNE NESREČE,2009,1075
+NARAVNE NESREČE,2010,828
+NARAVNE NESREČE,2011,584
+NARAVNE NESREČE,2012,1173
+NARAVNE NESREČE,2013,1202
+NARAVNE NESREČE,2014,1986
+NARAVNE NESREČE,2015,841
+NARAVNE NESREČE,2016,1193
+NARAVNE NESREČE,2017,1207
+NESREČE V PROMETU,2005,1533
+NESREČE V PROMETU,2006,2157
+NESREČE V PROMETU,2007,2143
+NESREČE V PROMETU,2008,1952
+NESREČE V PROMETU,2009,2060
+NESREČE V PROMETU,2010,1804
+NESREČE V PROMETU,2011,2105
+NESREČE V PROMETU,2012,2074
+NESREČE V PROMETU,2013,2364
+NESREČE V PROMETU,2014,2273
+NESREČE V PROMETU,2015,2368
+NESREČE V PROMETU,2016,2688
+NESREČE V PROMETU,2017,2129
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2005,725
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2006,670
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2007,718
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2008,630
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2009,656
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2010,579
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2011,627
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2012,543
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2013,631
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2014,657
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2015,703
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2016,641
+"ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI",2017,621
+POŽARI IN EKSPLOZIJE,2005,5054
+POŽARI IN EKSPLOZIJE,2006,5384
+POŽARI IN EKSPLOZIJE,2007,5812
+POŽARI IN EKSPLOZIJE,2008,4872
+POŽARI IN EKSPLOZIJE,2009,5071
+POŽARI IN EKSPLOZIJE,2010,3811
+POŽARI IN EKSPLOZIJE,2011,5259
+POŽARI IN EKSPLOZIJE,2012,5556
+POŽARI IN EKSPLOZIJE,2013,4159
+POŽARI IN EKSPLOZIJE,2014,3579
+POŽARI IN EKSPLOZIJE,2015,4244
+POŽARI IN EKSPLOZIJE,2016,4401
+POŽARI IN EKSPLOZIJE,2017,4831
+TEHNIČNA IN DRUGA POMOČ,2005,1945
+TEHNIČNA IN DRUGA POMOČ,2006,2683
+TEHNIČNA IN DRUGA POMOČ,2007,2213
+TEHNIČNA IN DRUGA POMOČ,2008,2527
+TEHNIČNA IN DRUGA POMOČ,2009,3134
+TEHNIČNA IN DRUGA POMOČ,2010,3002
+TEHNIČNA IN DRUGA POMOČ,2011,3223
+TEHNIČNA IN DRUGA POMOČ,2012,3314
+TEHNIČNA IN DRUGA POMOČ,2013,3772
+TEHNIČNA IN DRUGA POMOČ,2014,4017
+TEHNIČNA IN DRUGA POMOČ,2015,4134
+TEHNIČNA IN DRUGA POMOČ,2016,4387
+TEHNIČNA IN DRUGA POMOČ,2017,4253
+

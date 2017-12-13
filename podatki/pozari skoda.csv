@@ -1,0 +1,316 @@
+﻿SkodaRang,Leto,PKID,Textbox6
+Ni gmotne škode,2005,696,5.032
+Ni gmotne škode,2006,430,5.365
+Ni gmotne škode,2007,421,5.788
+Ni gmotne škode,2008,702,4.847
+Ni gmotne škode,2009,561,5.058
+Ni gmotne škode,2010,1.028,3.789
+Ni gmotne škode,2011,1.773,5.283
+Ni gmotne škode,2012,2.151,5.564
+Ni gmotne škode,2013,1.882,4.175
+Ni gmotne škode,2014,1.178,3.593
+Ni gmotne škode,2015,2.263,4.256
+Ni gmotne škode,2016,2.287,4.402
+Ni gmotne škode,2017,3.284,4.918
+do 10.000 €,2005,514,5.032
+do 10.000 €,2006,467,5.365
+do 10.000 €,2007,511,5.788
+do 10.000 €,2008,270,4.847
+do 10.000 €,2009,278,5.058
+do 10.000 €,2010,644,3.789
+do 10.000 €,2011,975,5.283
+do 10.000 €,2012,762,5.564
+do 10.000 €,2013,911,4.175
+do 10.000 €,2014,499,3.593
+do 10.000 €,2015,1.142,4.256
+do 10.000 €,2016,1.368,4.402
+do 10.000 €,2017,1.251,4.918
+10.000 € - 50.000 €,2005,78,5.032
+10.000 € - 50.000 €,2006,120,5.365
+10.000 € - 50.000 €,2007,148,5.788
+10.000 € - 50.000 €,2008,108,4.847
+10.000 € - 50.000 €,2009,95,5.058
+10.000 € - 50.000 €,2010,97,3.789
+10.000 € - 50.000 €,2011,55,5.283
+10.000 € - 50.000 €,2012,107,5.564
+10.000 € - 50.000 €,2013,130,4.175
+10.000 € - 50.000 €,2014,102,3.593
+10.000 € - 50.000 €,2015,157,4.256
+10.000 € - 50.000 €,2016,158,4.402
+10.000 € - 50.000 €,2017,178,4.918
+50.000 € - 100.000 €,2005,12,5.032
+50.000 € - 100.000 €,2006,22,5.365
+50.000 € - 100.000 €,2007,37,5.788
+50.000 € - 100.000 €,2008,38,4.847
+50.000 € - 100.000 €,2009,28,5.058
+50.000 € - 100.000 €,2010,19,3.789
+50.000 € - 100.000 €,2011,9,5.283
+50.000 € - 100.000 €,2012,21,5.564
+50.000 € - 100.000 €,2013,30,4.175
+50.000 € - 100.000 €,2014,21,3.593
+50.000 € - 100.000 €,2015,43,4.256
+50.000 € - 100.000 €,2016,21,4.402
+50.000 € - 100.000 €,2017,29,4.918
+100.000 € - 1.000.000 €,2005,9,5.032
+100.000 € - 1.000.000 €,2006,14,5.365
+100.000 € - 1.000.000 €,2007,33,5.788
+100.000 € - 1.000.000 €,2008,19,4.847
+100.000 € - 1.000.000 €,2009,23,5.058
+100.000 € - 1.000.000 €,2010,15,3.789
+100.000 € - 1.000.000 €,2011,9,5.283
+100.000 € - 1.000.000 €,2012,10,5.564
+100.000 € - 1.000.000 €,2013,18,4.175
+100.000 € - 1.000.000 €,2014,7,3.593
+100.000 € - 1.000.000 €,2015,11,4.256
+100.000 € - 1.000.000 €,2016,6,4.402
+100.000 € - 1.000.000 €,2017,11,4.918
+nad 1.000.000 €,2005,2,5.032
+nad 1.000.000 €,2006,3,5.365
+nad 1.000.000 €,2007,5,5.788
+nad 1.000.000 €,2008,2,4.847
+nad 1.000.000 €,2009,2,5.058
+nad 1.000.000 €,2010,11,3.789
+nad 1.000.000 €,2011,1,5.283
+nad 1.000.000 €,2012,4,5.564
+nad 1.000.000 €,2013,1,4.175
+nad 1.000.000 €,2014,5,3.593
+nad 1.000.000 €,2015,2,4.256
+nad 1.000.000 €,2016,1,4.402
+nad 1.000.000 €,2017,1,4.918
+Ni podatka,2005,3.721,5.032
+Ni podatka,2006,4.309,5.365
+Ni podatka,2007,4.633,5.788
+Ni podatka,2008,3.708,4.847
+Ni podatka,2009,4.071,5.058
+Ni podatka,2010,1.975,3.789
+Ni podatka,2011,2.461,5.283
+Ni podatka,2012,2.509,5.564
+Ni podatka,2013,1.203,4.175
+Ni podatka,2014,1.781,3.593
+Ni podatka,2015,638,4.256
+Ni podatka,2016,561,4.402
+Ni podatka,2017,164,4.918
+
+Skupina_dogodka,Leto1,Textbox72,Dogodek,Od,Textbox68
+Požari v objektih,2005,3.880.250,Stanovanjske stavbe,630.145,4.280.514
+Požari v objektih,2006,6.020.254,Stanovanjske stavbe,1.260.142,6.700.467
+Požari v objektih,2007,9.710.225,Stanovanjske stavbe,2.070.131,11.630.511
+Požari v objektih,2008,6.070.171,Stanovanjske stavbe,1.580.109,6.880.270
+Požari v objektih,2009,6.170.186,Stanovanjske stavbe,1.390.118,6.650.278
+Požari v objektih,2010,9.690.350,Stanovanjske stavbe,4.990.250,14.420.644
+Požari v objektih,2011,1.480.245,Stanovanjske stavbe,690.135,2.900.975
+Požari v objektih,2012,6.720.347,Stanovanjske stavbe,3.010.212,7.120.762
+Požari v objektih,2013,4.830.452,Stanovanjske stavbe,1.560.270,5.600.911
+Požari v objektih,2014,4.420.275,Stanovanjske stavbe,1.040.169,7.770.499
+Požari v objektih,2015,5.920.548,Stanovanjske stavbe,2.390.310,6.821.142
+Požari v objektih,2016,3.630.640,Stanovanjske stavbe,1.120.384,4.231.368
+Požari v objektih,2017,4.940.585,Stanovanjske stavbe,1.490.339,5.331.251
+Požari v objektih,2005,3.880.250,Nestanovanjske stavbe,3.160.083,4.280.514
+Požari v objektih,2006,6.020.254,Nestanovanjske stavbe,4.730.095,6.700.467
+Požari v objektih,2007,9.710.225,Nestanovanjske stavbe,7.380.080,11.630.511
+Požari v objektih,2008,6.070.171,Nestanovanjske stavbe,4.480.059,6.880.270
+Požari v objektih,2009,6.170.186,Nestanovanjske stavbe,4.730.061,6.650.278
+Požari v objektih,2010,9.690.350,Nestanovanjske stavbe,3.460.083,14.420.644
+Požari v objektih,2011,1.480.245,Nestanovanjske stavbe,680.066,2.900.975
+Požari v objektih,2012,6.720.347,Nestanovanjske stavbe,3.290.100,7.120.762
+Požari v objektih,2013,4.830.452,Nestanovanjske stavbe,1.840.125,5.600.911
+Požari v objektih,2014,4.420.275,Nestanovanjske stavbe,2.080.073,7.770.499
+Požari v objektih,2015,5.920.548,Nestanovanjske stavbe,3.160.157,6.821.142
+Požari v objektih,2016,3.630.640,Nestanovanjske stavbe,820.173,4.231.368
+Požari v objektih,2017,4.940.585,Nestanovanjske stavbe,2.070.172,5.331.251
+Požari v objektih,2005,3.880.250,Objekti transportne infrastrukture,3,4.280.514
+Požari v objektih,2006,6.020.254,Objekti transportne infrastrukture,2,6.700.467
+Požari v objektih,2007,9.710.225,Objekti transportne infrastrukture,0,11.630.511
+Požari v objektih,2008,6.070.171,Objekti transportne infrastrukture,0,6.880.270
+Požari v objektih,2009,6.170.186,Objekti transportne infrastrukture,1,6.650.278
+Požari v objektih,2010,9.690.350,Objekti transportne infrastrukture,0,14.420.644
+Požari v objektih,2011,1.480.245,Objekti transportne infrastrukture,2,2.900.975
+Požari v objektih,2012,6.720.347,Objekti transportne infrastrukture,0,7.120.762
+Požari v objektih,2013,4.830.452,Objekti transportne infrastrukture,3,5.600.911
+Požari v objektih,2014,4.420.275,Objekti transportne infrastrukture,0,7.770.499
+Požari v objektih,2015,5.920.548,Objekti transportne infrastrukture,3,6.821.142
+Požari v objektih,2016,3.630.640,Objekti transportne infrastrukture,1.000.001,4.231.368
+Požari v objektih,2017,4.940.585,Objekti transportne infrastrukture,2,5.331.251
+Požari v objektih,2005,3.880.250,"Cevovodi, komunikacijska omrežja in elektroenergetski vodi",20.009,4.280.514
+Požari v objektih,2006,6.020.254,"Cevovodi, komunikacijska omrežja in elektroenergetski vodi",6,6.700.467
+Požari v objektih,2007,9.710.225,"Cevovodi, komunikacijska omrežja in elektroenergetski vodi",20.007,11.630.511
+Požari v objektih,2008,6.070.171,"Cevovodi, komunikacijska omrežja in elektroenergetski vodi",10.000,6.880.270
+Požari v objektih,2009,6.170.186,"Cevovodi, komunikacijska omrežja in elektroenergetski vodi",50.003,6.650.278
+Požari v objektih,2010,9.690.350,"Cevovodi, komunikacijska omrežja in elektroenergetski vodi",1.010.003,14.420.644
+Požari v objektih,2011,1.480.245,"Cevovodi, komunikacijska omrežja in elektroenergetski vodi",23,2.900.975
+Požari v objektih,2012,6.720.347,"Cevovodi, komunikacijska omrežja in elektroenergetski vodi",7,7.120.762
+Požari v objektih,2013,4.830.452,"Cevovodi, komunikacijska omrežja in elektroenergetski vodi",17,5.600.911
+Požari v objektih,2014,4.420.275,"Cevovodi, komunikacijska omrežja in elektroenergetski vodi",15,7.770.499
+Požari v objektih,2015,5.920.548,"Cevovodi, komunikacijska omrežja in elektroenergetski vodi",20.024,6.821.142
+Požari v objektih,2016,3.630.640,"Cevovodi, komunikacijska omrežja in elektroenergetski vodi",21,4.231.368
+Požari v objektih,2017,4.940.585,"Cevovodi, komunikacijska omrežja in elektroenergetski vodi",30,5.331.251
+Požari v objektih,2005,3.880.250,Kompleksni industrijski objekti,10.000,4.280.514
+Požari v objektih,2006,6.020.254,Kompleksni industrijski objekti,0,6.700.467
+Požari v objektih,2007,9.710.225,Kompleksni industrijski objekti,0,11.630.511
+Požari v objektih,2008,6.070.171,Kompleksni industrijski objekti,0,6.880.270
+Požari v objektih,2009,6.170.186,Kompleksni industrijski objekti,1,6.650.278
+Požari v objektih,2010,9.690.350,Kompleksni industrijski objekti,120.010,14.420.644
+Požari v objektih,2011,1.480.245,Kompleksni industrijski objekti,100.009,2.900.975
+Požari v objektih,2012,6.720.347,Kompleksni industrijski objekti,410.018,7.120.762
+Požari v objektih,2013,4.830.452,Kompleksni industrijski objekti,1.430.026,5.600.911
+Požari v objektih,2014,4.420.275,Kompleksni industrijski objekti,1.280.015,7.770.499
+Požari v objektih,2015,5.920.548,Kompleksni industrijski objekti,290.041,6.821.142
+Požari v objektih,2016,3.630.640,Kompleksni industrijski objekti,630.049,4.231.368
+Požari v objektih,2017,4.940.585,Kompleksni industrijski objekti,310.036,5.331.251
+Požari v objektih,2005,3.880.250,Drugi gradbeni inženirski objekti,60.010,4.280.514
+Požari v objektih,2006,6.020.254,Drugi gradbeni inženirski objekti,30.009,6.700.467
+Požari v objektih,2007,9.710.225,Drugi gradbeni inženirski objekti,240.007,11.630.511
+Požari v objektih,2008,6.070.171,Drugi gradbeni inženirski objekti,3,6.880.270
+Požari v objektih,2009,6.170.186,Drugi gradbeni inženirski objekti,2,6.650.278
+Požari v objektih,2010,9.690.350,Drugi gradbeni inženirski objekti,110.004,14.420.644
+Požari v objektih,2011,1.480.245,Drugi gradbeni inženirski objekti,10.010,2.900.975
+Požari v objektih,2012,6.720.347,Drugi gradbeni inženirski objekti,10.010,7.120.762
+Požari v objektih,2013,4.830.452,Drugi gradbeni inženirski objekti,11,5.600.911
+Požari v objektih,2014,4.420.275,Drugi gradbeni inženirski objekti,20.003,7.770.499
+Požari v objektih,2015,5.920.548,Drugi gradbeni inženirski objekti,60.013,6.821.142
+Požari v objektih,2016,3.630.640,Drugi gradbeni inženirski objekti,60.012,4.231.368
+Požari v objektih,2017,4.940.585,Drugi gradbeni inženirski objekti,1.070.006,5.331.251
+Požari na prometnih sredstvih,2005,380.088,požari na sredstvih cestnega prometa,380.084,4.280.514
+Požari na prometnih sredstvih,2006,530.085,požari na sredstvih cestnega prometa,160.071,6.700.467
+Požari na prometnih sredstvih,2007,1.810.058,požari na sredstvih cestnega prometa,1.600.052,11.630.511
+Požari na prometnih sredstvih,2008,800.068,požari na sredstvih cestnega prometa,760.066,6.880.270
+Požari na prometnih sredstvih,2009,470.059,požari na sredstvih cestnega prometa,390.057,6.650.278
+Požari na prometnih sredstvih,2010,1.680.117,požari na sredstvih cestnega prometa,1.460.113,14.420.644
+Požari na prometnih sredstvih,2011,390.124,požari na sredstvih cestnega prometa,290.116,2.900.975
+Požari na prometnih sredstvih,2012,310.113,požari na sredstvih cestnega prometa,290.104,7.120.762
+Požari na prometnih sredstvih,2013,560.169,požari na sredstvih cestnega prometa,540.156,5.600.911
+Požari na prometnih sredstvih,2014,1.350.108,požari na sredstvih cestnega prometa,1.190.105,7.770.499
+Požari na prometnih sredstvih,2015,860.208,požari na sredstvih cestnega prometa,680.188,6.821.142
+Požari na prometnih sredstvih,2016,520.239,požari na sredstvih cestnega prometa,480.223,4.231.368
+Požari na prometnih sredstvih,2017,320.287,požari na sredstvih cestnega prometa,280.270,5.331.251
+Požari na prometnih sredstvih,2005,380.088,"požari na delovnih, kmetijskih in gradbenih strojih",4,4.280.514
+Požari na prometnih sredstvih,2006,530.085,"požari na delovnih, kmetijskih in gradbenih strojih",260.012,6.700.467
+Požari na prometnih sredstvih,2007,1.810.058,"požari na delovnih, kmetijskih in gradbenih strojih",180.005,11.630.511
+Požari na prometnih sredstvih,2008,800.068,"požari na delovnih, kmetijskih in gradbenih strojih",40.002,6.880.270
+Požari na prometnih sredstvih,2009,470.059,"požari na delovnih, kmetijskih in gradbenih strojih",70.001,6.650.278
+Požari na prometnih sredstvih,2010,1.680.117,"požari na delovnih, kmetijskih in gradbenih strojih",120.002,14.420.644
+Požari na prometnih sredstvih,2011,390.124,"požari na delovnih, kmetijskih in gradbenih strojih",100.005,2.900.975
+Požari na prometnih sredstvih,2012,310.113,"požari na delovnih, kmetijskih in gradbenih strojih",20.006,7.120.762
+Požari na prometnih sredstvih,2013,560.169,"požari na delovnih, kmetijskih in gradbenih strojih",20.008,5.600.911
+Požari na prometnih sredstvih,2014,1.350.108,"požari na delovnih, kmetijskih in gradbenih strojih",60.002,7.770.499
+Požari na prometnih sredstvih,2015,860.208,"požari na delovnih, kmetijskih in gradbenih strojih",120.017,6.821.142
+Požari na prometnih sredstvih,2016,520.239,"požari na delovnih, kmetijskih in gradbenih strojih",40.013,4.231.368
+Požari na prometnih sredstvih,2017,320.287,"požari na delovnih, kmetijskih in gradbenih strojih",30.013,5.331.251
+Požari na prometnih sredstvih,2005,380.088,požari na sredstvih železniškega prometa,0,4.280.514
+Požari na prometnih sredstvih,2006,530.085,požari na sredstvih železniškega prometa,100.002,6.700.467
+Požari na prometnih sredstvih,2007,1.810.058,požari na sredstvih železniškega prometa,10.000,11.630.511
+Požari na prometnih sredstvih,2008,800.068,požari na sredstvih železniškega prometa,0,6.880.270
+Požari na prometnih sredstvih,2009,470.059,požari na sredstvih železniškega prometa,0,6.650.278
+Požari na prometnih sredstvih,2010,1.680.117,požari na sredstvih železniškega prometa,2,14.420.644
+Požari na prometnih sredstvih,2011,390.124,požari na sredstvih železniškega prometa,3,2.900.975
+Požari na prometnih sredstvih,2012,310.113,požari na sredstvih železniškega prometa,3,7.120.762
+Požari na prometnih sredstvih,2013,560.169,požari na sredstvih železniškega prometa,3,5.600.911
+Požari na prometnih sredstvih,2014,1.350.108,požari na sredstvih železniškega prometa,100.001,7.770.499
+Požari na prometnih sredstvih,2015,860.208,požari na sredstvih železniškega prometa,3,6.821.142
+Požari na prometnih sredstvih,2016,520.239,požari na sredstvih železniškega prometa,2,4.231.368
+Požari na prometnih sredstvih,2017,320.287,požari na sredstvih železniškega prometa,2,5.331.251
+Požari na prometnih sredstvih,2005,380.088,požari na sredstvih zračnega prometa,0,4.280.514
+Požari na prometnih sredstvih,2006,530.085,požari na sredstvih zračnega prometa,0,6.700.467
+Požari na prometnih sredstvih,2007,1.810.058,požari na sredstvih zračnega prometa,,11.630.511
+Požari na prometnih sredstvih,2008,800.068,požari na sredstvih zračnega prometa,0,6.880.270
+Požari na prometnih sredstvih,2009,470.059,požari na sredstvih zračnega prometa,1,6.650.278
+Požari na prometnih sredstvih,2010,1.680.117,požari na sredstvih zračnega prometa,0,14.420.644
+Požari na prometnih sredstvih,2011,390.124,požari na sredstvih zračnega prometa,,2.900.975
+Požari na prometnih sredstvih,2012,310.113,požari na sredstvih zračnega prometa,,7.120.762
+Požari na prometnih sredstvih,2013,560.169,požari na sredstvih zračnega prometa,0,5.600.911
+Požari na prometnih sredstvih,2014,1.350.108,požari na sredstvih zračnega prometa,,7.770.499
+Požari na prometnih sredstvih,2015,860.208,požari na sredstvih zračnega prometa,,6.821.142
+Požari na prometnih sredstvih,2016,520.239,požari na sredstvih zračnega prometa,,4.231.368
+Požari na prometnih sredstvih,2017,320.287,požari na sredstvih zračnega prometa,1,5.331.251
+Požari na prometnih sredstvih,2005,380.088,požari na sredstvih vodnega prometa,0,4.280.514
+Požari na prometnih sredstvih,2006,530.085,požari na sredstvih vodnega prometa,10.000,6.700.467
+Požari na prometnih sredstvih,2007,1.810.058,požari na sredstvih vodnega prometa,20.001,11.630.511
+Požari na prometnih sredstvih,2008,800.068,požari na sredstvih vodnega prometa,0,6.880.270
+Požari na prometnih sredstvih,2009,470.059,požari na sredstvih vodnega prometa,10.000,6.650.278
+Požari na prometnih sredstvih,2010,1.680.117,požari na sredstvih vodnega prometa,100.000,14.420.644
+Požari na prometnih sredstvih,2011,390.124,požari na sredstvih vodnega prometa,0,2.900.975
+Požari na prometnih sredstvih,2012,310.113,požari na sredstvih vodnega prometa,0,7.120.762
+Požari na prometnih sredstvih,2013,560.169,požari na sredstvih vodnega prometa,2,5.600.911
+Požari na prometnih sredstvih,2014,1.350.108,požari na sredstvih vodnega prometa,0,7.770.499
+Požari na prometnih sredstvih,2015,860.208,požari na sredstvih vodnega prometa,60.000,6.821.142
+Požari na prometnih sredstvih,2016,520.239,požari na sredstvih vodnega prometa,1,4.231.368
+Požari na prometnih sredstvih,2017,320.287,požari na sredstvih vodnega prometa,10.001,5.331.251
+Požari v naravi oziroma na prostem,2005,20.112,požari na gozdnih in grmovnih površinah,36,4.280.514
+Požari v naravi oziroma na prostem,2006,130.084,požari na gozdnih in grmovnih površinah,130.039,6.700.467
+Požari v naravi oziroma na prostem,2007,110.147,požari na gozdnih in grmovnih površinah,69,11.630.511
+Požari v naravi oziroma na prostem,2008,10.012,požari na gozdnih in grmovnih površinah,0,6.880.270
+Požari v naravi oziroma na prostem,2009,10.006,požari na gozdnih in grmovnih površinah,0,6.650.278
+Požari v naravi oziroma na prostem,2010,3.040.174,požari na gozdnih in grmovnih površinah,30.018,14.420.644
+Požari v naravi oziroma na prostem,2011,30.506,požari na gozdnih in grmovnih površinah,90,2.900.975
+Požari v naravi oziroma na prostem,2012,60.142,požari na gozdnih in grmovnih površinah,24,7.120.762
+Požari v naravi oziroma na prostem,2013,200.128,požari na gozdnih in grmovnih površinah,100.028,5.600.911
+Požari v naravi oziroma na prostem,2014,2.000.045,požari na gozdnih in grmovnih površinah,1.000.007,7.770.499
+Požari v naravi oziroma na prostem,2015,30.202,požari na gozdnih in grmovnih površinah,20.046,6.821.142
+Požari v naravi oziroma na prostem,2016,80.283,požari na gozdnih in grmovnih površinah,70.078,4.231.368
+Požari v naravi oziroma na prostem,2017,50.210,požari na gozdnih in grmovnih površinah,50.049,5.331.251
+Požari v naravi oziroma na prostem,2005,20.112,požari na obdelanih površinah,4,4.280.514
+Požari v naravi oziroma na prostem,2006,130.084,požari na obdelanih površinah,0,6.700.467
+Požari v naravi oziroma na prostem,2007,110.147,požari na obdelanih površinah,4,11.630.511
+Požari v naravi oziroma na prostem,2008,10.012,požari na obdelanih površinah,0,6.880.270
+Požari v naravi oziroma na prostem,2009,10.006,požari na obdelanih površinah,0,6.650.278
+Požari v naravi oziroma na prostem,2010,3.040.174,požari na obdelanih površinah,1.000.001,14.420.644
+Požari v naravi oziroma na prostem,2011,30.506,požari na obdelanih površinah,11,2.900.975
+Požari v naravi oziroma na prostem,2012,60.142,požari na obdelanih površinah,9,7.120.762
+Požari v naravi oziroma na prostem,2013,200.128,požari na obdelanih površinah,4,5.600.911
+Požari v naravi oziroma na prostem,2014,2.000.045,požari na obdelanih površinah,3,7.770.499
+Požari v naravi oziroma na prostem,2015,30.202,požari na obdelanih površinah,6,6.821.142
+Požari v naravi oziroma na prostem,2016,80.283,požari na obdelanih površinah,12,4.231.368
+Požari v naravi oziroma na prostem,2017,50.210,požari na obdelanih površinah,9,5.331.251
+Požari v naravi oziroma na prostem,2005,20.112,požari na travniških površinah,20.046,4.280.514
+Požari v naravi oziroma na prostem,2006,130.084,požari na travniških površinah,23,6.700.467
+Požari v naravi oziroma na prostem,2007,110.147,požari na travniških površinah,10.042,11.630.511
+Požari v naravi oziroma na prostem,2008,10.012,požari na travniških površinah,0,6.880.270
+Požari v naravi oziroma na prostem,2009,10.006,požari na travniških površinah,2,6.650.278
+Požari v naravi oziroma na prostem,2010,3.040.174,požari na travniških površinah,2.000.105,14.420.644
+Požari v naravi oziroma na prostem,2011,30.506,požari na travniških površinah,30.335,2.900.975
+Požari v naravi oziroma na prostem,2012,60.142,požari na travniških površinah,60.070,7.120.762
+Požari v naravi oziroma na prostem,2013,200.128,požari na travniških površinah,40,5.600.911
+Požari v naravi oziroma na prostem,2014,2.000.045,požari na travniških površinah,1.000.012,7.770.499
+Požari v naravi oziroma na prostem,2015,30.202,požari na travniških površinah,57,6.821.142
+Požari v naravi oziroma na prostem,2016,80.283,požari na travniških površinah,86,4.231.368
+Požari v naravi oziroma na prostem,2017,50.210,požari na travniških površinah,61,5.331.251
+Požari v naravi oziroma na prostem,2005,20.112,"požari na smetiščih, odlagališčih",6,4.280.514
+Požari v naravi oziroma na prostem,2006,130.084,"požari na smetiščih, odlagališčih",10,6.700.467
+Požari v naravi oziroma na prostem,2007,110.147,"požari na smetiščih, odlagališčih",100.011,11.630.511
+Požari v naravi oziroma na prostem,2008,10.012,"požari na smetiščih, odlagališčih",0,6.880.270
+Požari v naravi oziroma na prostem,2009,10.006,"požari na smetiščih, odlagališčih",0,6.650.278
+Požari v naravi oziroma na prostem,2010,3.040.174,"požari na smetiščih, odlagališčih",9,14.420.644
+Požari v naravi oziroma na prostem,2011,30.506,"požari na smetiščih, odlagališčih",16,2.900.975
+Požari v naravi oziroma na prostem,2012,60.142,"požari na smetiščih, odlagališčih",2,7.120.762
+Požari v naravi oziroma na prostem,2013,200.128,"požari na smetiščih, odlagališčih",2,5.600.911
+Požari v naravi oziroma na prostem,2014,2.000.045,"požari na smetiščih, odlagališčih",0,7.770.499
+Požari v naravi oziroma na prostem,2015,30.202,"požari na smetiščih, odlagališčih",5,6.821.142
+Požari v naravi oziroma na prostem,2016,80.283,"požari na smetiščih, odlagališčih",16,4.231.368
+Požari v naravi oziroma na prostem,2017,50.210,"požari na smetiščih, odlagališčih",5,5.331.251
+Požari v naravi oziroma na prostem,2005,20.112,drugi požari v naravi oziroma na prostem,20,4.280.514
+Požari v naravi oziroma na prostem,2006,130.084,drugi požari v naravi oziroma na prostem,12,6.700.467
+Požari v naravi oziroma na prostem,2007,110.147,drugi požari v naravi oziroma na prostem,21,11.630.511
+Požari v naravi oziroma na prostem,2008,10.012,drugi požari v naravi oziroma na prostem,10.012,6.880.270
+Požari v naravi oziroma na prostem,2009,10.006,drugi požari v naravi oziroma na prostem,10.004,6.650.278
+Požari v naravi oziroma na prostem,2010,3.040.174,drugi požari v naravi oziroma na prostem,10.041,14.420.644
+Požari v naravi oziroma na prostem,2011,30.506,drugi požari v naravi oziroma na prostem,54,2.900.975
+Požari v naravi oziroma na prostem,2012,60.142,drugi požari v naravi oziroma na prostem,37,7.120.762
+Požari v naravi oziroma na prostem,2013,200.128,drugi požari v naravi oziroma na prostem,100.054,5.600.911
+Požari v naravi oziroma na prostem,2014,2.000.045,drugi požari v naravi oziroma na prostem,23,7.770.499
+Požari v naravi oziroma na prostem,2015,30.202,drugi požari v naravi oziroma na prostem,10.088,6.821.142
+Požari v naravi oziroma na prostem,2016,80.283,drugi požari v naravi oziroma na prostem,10.091,4.231.368
+Požari v naravi oziroma na prostem,2017,50.210,drugi požari v naravi oziroma na prostem,86,5.331.251
+Požari v komunalnih in drugih zabojnikih,2005,64,požari v komunalnih in drugih zabojnikih,64,4.280.514
+Požari v komunalnih in drugih zabojnikih,2006,20.044,požari v komunalnih in drugih zabojnikih,20.044,6.700.467
+Požari v komunalnih in drugih zabojnikih,2007,81,požari v komunalnih in drugih zabojnikih,81,11.630.511
+Požari v komunalnih in drugih zabojnikih,2008,19,požari v komunalnih in drugih zabojnikih,19,6.880.270
+Požari v komunalnih in drugih zabojnikih,2009,27,požari v komunalnih in drugih zabojnikih,27,6.650.278
+Požari v komunalnih in drugih zabojnikih,2010,10.003,požari v komunalnih in drugih zabojnikih,10.003,14.420.644
+Požari v komunalnih in drugih zabojnikih,2011,1.000.100,požari v komunalnih in drugih zabojnikih,1.000.100,2.900.975
+Požari v komunalnih in drugih zabojnikih,2012,30.160,požari v komunalnih in drugih zabojnikih,30.160,7.120.762
+Požari v komunalnih in drugih zabojnikih,2013,10.162,požari v komunalnih in drugih zabojnikih,10.162,5.600.911
+Požari v komunalnih in drugih zabojnikih,2014,71,požari v komunalnih in drugih zabojnikih,71,7.770.499
+Požari v komunalnih in drugih zabojnikih,2015,10.184,požari v komunalnih in drugih zabojnikih,10.184,6.821.142
+Požari v komunalnih in drugih zabojnikih,2016,206,požari v komunalnih in drugih zabojnikih,206,4.231.368
+Požari v komunalnih in drugih zabojnikih,2017,20.169,požari v komunalnih in drugih zabojnikih,20.169,5.331.251
+

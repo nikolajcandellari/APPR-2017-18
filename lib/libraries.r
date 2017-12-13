@@ -1,4 +1,5 @@
 library(knitr)
+library(httr)
 library(dplyr)
 library(readr)
 library(rvest)
