@@ -148,5 +148,3 @@ get.reports <- function(type = 18, year = 2017, unit.ids = NULL) {
   # Vrnemo združeno razpredelnico.
   return(bind_rows(tables))
 }
-#ukaz za zapis podatkov v .csv obliko
-write_csv(get.reports(), "podatki/vrste intervencij po drustvih.csv")
