@@ -2,6 +2,8 @@
 library(sp)
 library(maptools)
 library(digest)
+library(ggplot2)
+library(dplyr)
 gpclibPermit()
 
 # Funkcija uvozi.zemljevid(url, ime.zemljevida, pot.zemljevida,
@@ -61,7 +63,7 @@ uvozi.zemljevid <- function(url, pot.zemljevida, mapa = "../zemljevidi",
 # Primer uvoza zemljevida (slovenske občine)
 # obcine <- uvozi.zemljevid("http://baza.fmf.uni-lj.si/OB.zip",
 #                           "OB/OB", encoding = "Windows-1250")
-
+#
 # Funkcija pretvori.zemljevid(podatki, zemljevid, stolpec, novi = NULL)
 #
 # Funkcija pretvori zemljevid v obliko, ki jo lahko uporabimo pri risanju z ggplot2.
@@ -76,4 +78,4 @@ pretvori.zemljevid <- function(zemljevid) {
   data <- zemljevid@data
   data$id <- as.character(0:(nrow(data)-1))
   return(inner_join(fo, data, by="id"))
-}
+}                                           
