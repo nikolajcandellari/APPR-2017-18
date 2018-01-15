@@ -2,6 +2,7 @@
 library(httr)
 library(rvest)
 library(dplyr)
+library(readr)
 
 sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
 
@@ -181,28 +182,25 @@ uvozi.obcine <- function() {
   return(tabela)
 }
 
-
-
-# Funkcije, ki uvozijo podatke iz datoteke pozari po urah.csv
-uvozi.pozari.po.urah <- function() {
-  pozari.cas <- read_csv("podatki/pozari po urah.csv", skip = 10,
-                    locale = locale(encoding = "UTF-8")) 
-  return(pozari.cas)
-}
-
-uvozi.pozarne.intervencije <- function() {
-  pozari.vrsta <- read_csv("podatki/pozarne intervencije.csv", skip = 7, n_max = 221,
-                   locale = locale(encoding = "UTF-8"))
-  return(pozari.vrsta)
-}
-
-
 #SPODNJE VRSTICE NE POGANJAJ VEDNO, PORABI OGROMNO ČASA!!!!
 #
 #write_csv(get.reports(), "podatki/vrste intervencij po drustvih.csv")
 
-# Zapišimo podatke v razpredelnico obcine
+# Zapišimo podatke v razpredelnice
 obcine <- uvozi.obcine()
+
+pozari.cas <- read_csv("podatki/pozari po urah.csv", skip = 10, encoding = "UTF-8")
+
+pozari.vrsta <- read_csv("podatki/pozarne intervencije.csv", skip = 7, n_max = 221, encoding = "UTF-8")
+
+pozari.skoda <- read_csv("podatki/pozari skoda.csv", encoding = "UTF-8")
+
+pozari.vzrok <- read_csv("podatki/pozari po vzroku.csv", skip = 4, encoding = "UTF-8")
+
+intervencije.po.kategorijah.skozi.leta <- read_csv("podatki/Pregled dogodkov po kategorijah od 2005-2017.csv",
+                                                   skip = 5, n_max=671, encoding = "UTF-8")
+
+vrste.intervencij.po.drustvih <- read.csv("podatki/vrste intervencij po drustvih.csv", encoding = "UTF-8") 
 
 # Če bi imeli več funkcij za uvoz in nekaterih npr. še ne bi
 # potrebovali v 3. fazi, bi bilo smiselno funkcije dati v svojo
