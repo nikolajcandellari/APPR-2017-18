@@ -9,8 +9,7 @@ uvozi.naselja.na.A <- function(){
   naselja <- tabela.A[c(TRUE, FALSE)]
   obcine <- tabela.A[c(FALSE, TRUE)]
   tabela.AA <- data.frame(naselja, obcine)
-  tabela.AAA <- mutate_all(tabela.AA, funs(toupper))
-  return(tabela.AAA)
+  return(tabela.AA)
 }
 tabela.A = uvozi.naselja.na.A()
 
@@ -23,8 +22,7 @@ uvozi.naselja.na.B <- function(){
   naselja <- tabela.B[c(TRUE, FALSE)]
   obcine <- tabela.B[c(FALSE, TRUE)]
   tabela.BB <- data.frame(naselja, obcine)
-  tabela.BBB <- mutate_all(tabela.BB, funs(toupper))
-  return(tabela.BBB)
+  return(tabela.BB)
 }
 tabela.B = uvozi.naselja.na.B()
 
@@ -37,8 +35,7 @@ uvozi.naselja.na.C <- function(){
   naselja <- tabela.C[c(TRUE, FALSE)]
   obcine <- tabela.C[c(FALSE, TRUE)]
   tabela.CC <- data.frame(naselja, obcine)
-  tabela.CCC <- mutate_all(tabela.CC, funs(toupper))
-  return(tabela.CCC)
+  return(tabela.CC)
 }
 tabela.C = uvozi.naselja.na.C()
 
@@ -51,8 +48,7 @@ uvozi.naselja.na.Č <- function(){
   naselja <- tabela.Č[c(TRUE, FALSE)]
   obcine <- tabela.Č[c(FALSE, TRUE)]
   tabela.ČČ <- data.frame(naselja, obcine)
-  tabela.ČČČ <- mutate_all(tabela.ČČ, funs(toupper))
-  return(tabela.ČČČ)
+  return(tabela.ČČ)
 }
 tabela.Č = uvozi.naselja.na.Č()
 
@@ -65,8 +61,7 @@ uvozi.naselja.na.D <- function(){
   naselja <- tabela.D[c(TRUE, FALSE)]
   obcine <- tabela.D[c(FALSE, TRUE)]
   tabela.DD <- data.frame(naselja, obcine)
-  tabela.DDD <- mutate_all(tabela.DD, funs(toupper))
-  return(tabela.DDD)
+  return(tabela.DD)
 }
 tabela.D = uvozi.naselja.na.D()
 
@@ -79,8 +74,7 @@ uvozi.naselja.na.E <- function(){
   naselja <- tabela.E[c(TRUE, FALSE)]
   obcine <- tabela.E[c(FALSE, TRUE)]
   tabela.EE <- data.frame(naselja, obcine)
-  tabela.EEE <- mutate_all(tabela.EE, funs(toupper))
-  return(tabela.EEE)
+  return(tabela.EE)
 }
 tabela.E = uvozi.naselja.na.E()
 
@@ -93,8 +87,7 @@ uvozi.naselja.na.F <- function(){
   naselja <- tabela.F[c(TRUE, FALSE)]
   obcine <- tabela.F[c(FALSE, TRUE)]
   tabela.FF <- data.frame(naselja, obcine)
-  tabela.FFF <- mutate_all(tabela.FF, funs(toupper))
-  return(tabela.FFF)
+  return(tabela.FF)
 }
 tabela.F = uvozi.naselja.na.F()
 
@@ -107,8 +100,7 @@ uvozi.naselja.na.G <- function(){
   naselja <- tabela.G[c(TRUE, FALSE)]
   obcine <- tabela.G[c(FALSE, TRUE)]
   tabela.GG <- data.frame(naselja, obcine)
-  tabela.GGG <- mutate_all(tabela.GG, funs(toupper))
-  return(tabela.GGG)
+  return(tabela.GG)
 }
 tabela.G = uvozi.naselja.na.G()
 
@@ -121,8 +113,7 @@ uvozi.naselja.na.H <- function(){
   naselja <- tabela.H[c(TRUE, FALSE)]
   obcine <- tabela.H[c(FALSE, TRUE)]
   tabela.HH <- data.frame(naselja, obcine)
-  tabela.HHH <- mutate_all(tabela.HH, funs(toupper))
-  return(tabela.HHH)
+  return(tabela.HH)
 }
 tabela.H = uvozi.naselja.na.H()
 
@@ -135,8 +126,7 @@ uvozi.naselja.na.I <- function(){
   naselja <- tabela.I[c(TRUE, FALSE)]
   obcine <- tabela.I[c(FALSE, TRUE)]
   tabela.II <- data.frame(naselja, obcine)
-  tabela.III <- mutate_all(tabela.II, funs(toupper))
-  return(tabela.III)
+  return(tabela.II)
 }
 tabela.I = uvozi.naselja.na.I()
 
@@ -149,8 +139,7 @@ uvozi.naselja.na.J <- function(){
   naselja <- tabela.J[c(TRUE, FALSE)]
   obcine <- tabela.J[c(FALSE, TRUE)]
   tabela.JJ <- data.frame(naselja, obcine)
-  tabela.JJJ <- mutate_all(tabela.JJ, funs(toupper))
-  return(tabela.JJJ)
+  return(tabela.JJ)
 }
 tabela.J = uvozi.naselja.na.J()
 
@@ -163,8 +152,7 @@ uvozi.naselja.na.K <- function(){
   naselja <- tabela.K[c(TRUE, FALSE)]
   obcine <- tabela.K[c(FALSE, TRUE)]
   tabela.KK <- data.frame(naselja, obcine)
-  tabela.KKK <- mutate_all(tabela.KK, funs(toupper))
-  return(tabela.KKK)
+  return(tabela.KK)
 }
 tabela.K = uvozi.naselja.na.K()
 
@@ -177,8 +165,7 @@ uvozi.naselja.na.L <- function(){
   naselja <- tabela.L[c(TRUE, FALSE)]
   obcine <- tabela.L[c(FALSE, TRUE)]
   tabela.LL <- data.frame(naselja, obcine)
-  tabela.LLL <- mutate_all(tabela.LL, funs(toupper))
-  return(tabela.LLL)
+  return(tabela.LL)
 }
 tabela.L = uvozi.naselja.na.L()
 
@@ -191,8 +178,7 @@ uvozi.naselja.na.M <- function(){
   naselja <- tabela.M[c(TRUE, FALSE)]
   obcine <- tabela.M[c(FALSE, TRUE)]
   tabela.MM <- data.frame(naselja, obcine)
-  tabela.MMM <- mutate_all(tabela.MM, funs(toupper))
-  return(tabela.MMM)
+  return(tabela.MM)
 }
 tabela.M = uvozi.naselja.na.M()
 
@@ -205,8 +191,7 @@ uvozi.naselja.na.N <- function(){
   naselja <- tabela.N[c(TRUE, FALSE)]
   obcine <- tabela.N[c(FALSE, TRUE)]
   tabela.NN <- data.frame(naselja, obcine)
-  tabela.NNN <- mutate_all(tabela.NN, funs(toupper))
-  return(tabela.NNN)
+  return(tabela.NN)
 }
 tabela.N = uvozi.naselja.na.N()
 
@@ -219,8 +204,7 @@ uvozi.naselja.na.O <- function(){
   naselja <- tabela.O[c(TRUE, FALSE)]
   obcine <- tabela.O[c(FALSE, TRUE)]
   tabela.OO <- data.frame(naselja, obcine)
-  tabela.OOO <- mutate_all(tabela.OO, funs(toupper))
-  return(tabela.OOO)
+  return(tabela.OO)
 }
 tabela.O = uvozi.naselja.na.O()
 
@@ -233,8 +217,7 @@ uvozi.naselja.na.P <- function(){
   naselja <- tabela.P[c(TRUE, FALSE)]
   obcine <- tabela.P[c(FALSE, TRUE)]
   tabela.PP <- data.frame(naselja, obcine)
-  tabela.PPP <- mutate_all(tabela.PP, funs(toupper))
-  return(tabela.PPP)
+  return(tabela.PP)
 }
 tabela.P = uvozi.naselja.na.P()
 
@@ -247,8 +230,7 @@ uvozi.naselja.na.R <- function(){
   naselja <- tabela.R[c(TRUE, FALSE)]
   obcine <- tabela.R[c(FALSE, TRUE)]
   tabela.RR <- data.frame(naselja, obcine)
-  tabela.RRR <- mutate_all(tabela.RR, funs(toupper))
-  return(tabela.RRR)
+  return(tabela.RR)
 }
 tabela.R = uvozi.naselja.na.R()
 
@@ -261,8 +243,7 @@ uvozi.naselja.na.S <- function(){
   naselja <- tabela.S[c(TRUE, FALSE)]
   obcine <- tabela.S[c(FALSE, TRUE)]
   tabela.SS <- data.frame(naselja, obcine)
-  tabela.SSS <- mutate_all(tabela.SS, funs(toupper))
-  return(tabela.SSS)
+  return(tabela.SS)
 }
 tabela.S = uvozi.naselja.na.S()
 
@@ -275,8 +256,7 @@ uvozi.naselja.na.Š <- function(){
   naselja <- tabela.Š[c(TRUE, FALSE)]
   obcine <- tabela.Š[c(FALSE, TRUE)]
   tabela.ŠŠ <- data.frame(naselja, obcine)
-  tabela.ŠŠŠ <- mutate_all(tabela.ŠŠ, funs(toupper))
-  return(tabela.ŠŠŠ)
+  return(tabela.ŠŠ)
 }
 tabela.Š = uvozi.naselja.na.Š()
 
@@ -289,8 +269,7 @@ uvozi.naselja.na.T <- function(){
   naselja <- tabela.T[c(TRUE, FALSE)]
   obcine <- tabela.T[c(FALSE, TRUE)]
   tabela.TT <- data.frame(naselja, obcine)
-  tabela.TTT <- mutate_all(tabela.TT, funs(toupper))
-  return(tabela.TTT)
+  return(tabela.TT)
 }
 tabela.T = uvozi.naselja.na.T()
 
@@ -303,8 +282,7 @@ uvozi.naselja.na.U <- function(){
   naselja <- tabela.U[c(TRUE, FALSE)]
   obcine <- tabela.U[c(FALSE, TRUE)]
   tabela.UU <- data.frame(naselja, obcine)
-  tabela.UUU <- mutate_all(tabela.UU, funs(toupper))
-  return(tabela.UUU)
+  return(tabela.UU)
 }
 tabela.U = uvozi.naselja.na.U()
 
@@ -317,8 +295,7 @@ uvozi.naselja.na.V <- function(){
   naselja <- tabela.V[c(TRUE, FALSE)]
   obcine <- tabela.V[c(FALSE, TRUE)]
   tabela.VV <- data.frame(naselja, obcine)
-  tabela.VVV <- mutate_all(tabela.VV, funs(toupper))
-  return(tabela.VVV)
+  return(tabela.VV)
 }
 tabela.V = uvozi.naselja.na.V()
 
@@ -331,8 +308,7 @@ uvozi.naselja.na.Z <- function(){
   naselja <- tabela.Z[c(TRUE, FALSE)]
   obcine <- tabela.Z[c(FALSE, TRUE)]
   tabela.ZZ <- data.frame(naselja, obcine)
-  tabela.ZZZ <- mutate_all(tabela.ZZ, funs(toupper))
-  return(tabela.ZZZ)
+  return(tabela.ZZ)
 }
 tabela.Z = uvozi.naselja.na.Z()
 
@@ -345,11 +321,11 @@ uvozi.naselja.na.Ž <- function(){
   naselja <- tabela.Ž[c(TRUE, FALSE)]
   obcine <- tabela.Ž[c(FALSE, TRUE)]
   tabela.ŽŽ <- data.frame(naselja, obcine)
-  tabela.ŽŽŽ <- mutate_all(tabela.ŽŽ, funs(toupper))
-  return(tabela.ŽŽŽ)
+  return(tabela.ŽŽ)
 }
 tabela.Ž = uvozi.naselja.na.Ž()
 
 # tabela naselji in občin ki jo bomo potrebovali za grafično analizo
-tabela.naselji =bind_rows(tabela.A, tabela.B, tabela.C, tabela.Č, tabela.D, tabela.E, tabela.F, tabela.G, tabela.H, tabela.I, tabela.J, tabela.K, tabela.L, tabela.M, tabela.N, tabela.O, tabela.P, tabela.R, tabela.S, tabela.Š, tabela.T, tabela.U, tabela.V, tabela.Z, tabela.Ž)
-View(tabela.naselji)
+tabela.naselji = bind_rows(tabela.A, tabela.B, tabela.C, tabela.Č, tabela.D, tabela.E, tabela.F, tabela.G, tabela.H, tabela.I, tabela.J, tabela.K, tabela.L, tabela.M, tabela.N, tabela.O, tabela.P, tabela.R, tabela.S, tabela.Š, tabela.T, tabela.U, tabela.V, tabela.Z, tabela.Ž)
+tabela.naselji.toupper <- data.frame(NASELJE = toupper(tabela.naselji$naselja), OBCINA =toupper(tabela.naselji$obcine))
+View(tabela.naselji.toupper)
