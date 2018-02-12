@@ -189,16 +189,16 @@ uvozi.obcine <- function() {
 # Zapišimo podatke v razpredelnice
 obcine <- uvozi.obcine()
 
-pozari.cas <- read_csv("podatki/pozari po urah.csv", skip = 10, encoding = "UTF-8")
+pozari.cas <- read_csv("podatki/pozari po urah.csv", skip = 10)
 
-pozari.vrsta <- read_csv("podatki/pozarne intervencije.csv", skip = 7, n_max = 221, encoding = "UTF-8")
+pozari.vrsta <- read_csv("podatki/pozarne intervencije.csv", skip = 7, n_max = 221)
 
-pozari.skoda <- read_csv("podatki/pozari skoda.csv", encoding = "UTF-8")
+pozari.skoda <- read_csv("podatki/pozari skoda.csv")
 
-pozari.vzrok <- read_csv("podatki/pozari po vzroku.csv", skip = 4, encoding = "UTF-8")
+pozari.vzrok <- read_csv("podatki/pozari po vzroku.csv", skip = 4)
 
 intervencije.po.kategorijah.skozi.leta <- read_csv("podatki/Pregled dogodkov po kategorijah od 2005-2017.csv",
-                                                   skip = 5, n_max=671, encoding = "UTF-8")
+                                                   skip = 5, n_max=671)
 
 vrste.intervencij.po.drustvih <- read.csv("podatki/vrste intervencij po drustvih.csv", encoding = "UTF-8") 
 
