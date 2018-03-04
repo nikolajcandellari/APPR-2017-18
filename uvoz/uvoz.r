@@ -202,6 +202,20 @@ intervencije.po.kategorijah.skozi.leta <- read_csv("podatki/Pregled dogodkov po 
 
 vrste.intervencij.po.drustvih <- read.csv("podatki/vrste intervencij po drustvih.csv", encoding = "UTF-8") 
 
+uvozi.poste <- function(crka) {
+  link <- sprintf("https://sl.wikipedia.org/wiki/Seznam_naselij_v_Sloveniji_(%s)", crka)
+  stran <- html_session(link) %>% read_html()
+  tabela <- stran %>% html_nodes(xpath = "//table[contains(@class, 'wikitable')]") %>% .[[1]] %>%
+    html_table(fill = TRUE)
+  `Pošta` <- NA # če nimamo stolpca `Pošta`, bomo uporabili NA
+  tabela %>% transmute(posta = toupper(parse_character(`Pošta`)),
+                       obcina = toupper(gsub("^(O|Mestna o)bčina ", "", `Občina`))) %>% drop_na(1)
+}
+
+abeceda <- "ABCČDEFGHIJKLMNOPRSŠTUVZŽ"
+poste <- bind_rows(lapply(1:25, . %>% { uvozi.poste(substr(abeceda, ., .)) })) %>%
+  arrange(posta) %>% unique()
+
 # Če bi imeli več funkcij za uvoz in nekaterih npr. še ne bi
 # potrebovali v 3. fazi, bi bilo smiselno funkcije dati v svojo
 # datoteko, tukaj pa bi klicali tiste, ki jih potrebujemo v
