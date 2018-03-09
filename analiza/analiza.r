@@ -20,6 +20,35 @@ skupine <- hclust(dist(scale(podatki))) %>% cutree(n)
 # saj so nekateri naslovi imena ulic, zato bomo v takih primerih poizkusali drustva po obcinah razdeliti 
 # se s pomocjo postnih naslovov
 
+tabela.toupper <- data.frame(NASELJE = tabela.naselji.toupper$NASELJE,
+                             OBCINA = tabela.naselji.toupper$OBCINA)
+tabela.toupper$OBCINA <- gsub("^(OBČINA|MESTNA OBČINA) ", "", tabela.naselji.toupper$OBCINA)
 
 osnovna <- left_join(drustva.po.naslovih, poste, by=c("posta" = "posta")) %>%  
-left_join(., gsub("^(O|Mestna o)bčina ", "", tabela.naselji.toupper), by=c("naselje" = "NASELJE"))
+  left_join(tabela.toupper, by=c("naselje" = "NASELJE")) 
+
+# funkcija za izločanje podvojenih imen drustev, ki so nastala zaradi neskladanja mej obcin z mejami
+#poštnih naslovov
+
+for(i in 1:(length(osnovna$drustvo))-1){
+  
+  if(duplicated(osnovna$drustvo)[i+1]){
+    
+    if(is.na(osnovna$obcina)[i]){
+      
+      if(is.na(osnovna$OBCINA)[i]){
+        osnovna <- osnovna[-i, ]
+      }
+      else {osnovna$obcina[i] <- osnovna$OBCINA[i]}
+      
+    }
+    if(is.na(osnovna$OBCINA)[i]){
+      osnovna$OBCINA[i] <- osnovna$obcina[i]
+    }
+    if(osnovna$obcina[i] == osnovna$OBCINA[i]){osnovna <- osnovna[i+1, ]}
+    
+    else {osnovna <- osnovna[-i, ]}
+  }
+}
+
+napredna.tabela <- data.frame(drustvo = osnovna$drustvo, obcina = osnovna$obcina)
