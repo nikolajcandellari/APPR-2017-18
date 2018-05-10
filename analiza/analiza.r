@@ -16,39 +16,36 @@ n <- 5
 skupine <- hclust(dist(scale(podatki))) %>% cutree(n)
 
 
-# v tem delu bomo najprej poizkusili razdeliti drustva po obcinah po naslovih vendar to nebo slo povsod
-# saj so nekateri naslovi imena ulic, zato bomo v takih primerih poizkusali drustva po obcinah razdeliti 
-# se s pomocjo postnih naslovov
-
-tabela.toupper <- data.frame(NASELJE = tabela.naselji.toupper$NASELJE,
-                             OBCINA = tabela.naselji.toupper$OBCINA)
-tabela.toupper$OBCINA <- gsub("^(OBČINA|MESTNA OBČINA) ", "", tabela.naselji.toupper$OBCINA)
-
-osnovna <- left_join(drustva.po.naslovih, poste, by=c("posta" = "posta")) %>%  
-  left_join(tabela.toupper, by=c("naselje" = "NASELJE")) 
-
 # funkcija za izločanje podvojenih imen drustev, ki so nastala zaradi neskladanja mej obcin z mejami
 #poštnih naslovov
 
-for(i in 1:(length(osnovna$drustvo))-1){
-  
-  if(duplicated(osnovna$drustvo)[i+1]){
-    
-    if(is.na(osnovna$obcina)[i]){
-      
-      if(is.na(osnovna$OBCINA)[i]){
-        osnovna <- osnovna[-i, ]
-      }
-      else {osnovna$obcina[i] <- osnovna$OBCINA[i]}
-      
-    }
-    if(is.na(osnovna$OBCINA)[i]){
-      osnovna$OBCINA[i] <- osnovna$obcina[i]
-    }
-    if(osnovna$obcina[i] == osnovna$OBCINA[i]){osnovna <- osnovna[i+1, ]}
-    
-    else {osnovna <- osnovna[-i, ]}
-  }
+for(i in 1:(length(osnovna$drustvo))){
+  if(is.na(osnovna$obcina)[i]){osnovna$obcina[i] <- osnovna$OBCINA[i]}
 }
 
-napredna.tabela <- data.frame(drustvo = osnovna$drustvo, obcina = osnovna$obcina)
+osnovna.grp <- osnovna %>% group_by(drustvo)
+
+osnovna.OK <- osnovna.grp %>% filter(n() == 1) %>% summarise(obcina = min(obcina))
+osnovna.podvojene <- osnovna %>% filter(!drustvo %in% osnovna.OK, obcina == OBCINA) %>% select(drustvo, obcina)
+
+napredna <- rbind(osnovna.OK, osnovna.podvojene) %>% na.omit()
+
+obcine <- left_join(napredna, vrste.intervencij.po.drustvih, by=c("drustvo" = "enota"))
+
+#grupiramo podatke po obcinah da jih bomo lahko predstavili v obliki zemljevida obcin
+
+intervencije.po.obcinah <- obcine %>% group_by(obcina, aktivnost) %>% summarise(stevilo=sum(stevilo))
+
+#izrišemo graf pravih dimenzij
+
+  vrsta.intervencij <- function(kategorija){
+    vrsta <-  filter(intervencije.po.obcinah, aktivnost == kategorija) %>% 
+                    left_join(stevilo.prebivalcev.po.obcinah, by=c("obcina" = "obcina"))
+    zemljevid.kategorije <- left_join(zemljevid, vrsta, by=c("OB_IME" = "obcina"))
+    graf <- ggplot() + geom_polygon(data=zemljevid.kategorije, 
+                          aes(long, lat, group=group, fill=stevilo))+ #fill=(stevilo*10^9/(POVRSINA*populacija)^(0.5)))) +
+                          theme_bw() + labs(title="stevilo intervencij po kategorijah")
+                          
+    return(graf)
+  }    
+  

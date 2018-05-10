@@ -1,0 +1,249 @@
+"Prebivalstvo po: SPOL, OBÈINE, POLLETJE , STAROST"
+
+" ";" ";"2016H2"
+" ";" ";"Starost - SKUPAJ"
+"Spol - SKUPAJ"
+" ";"Ajdovšèina";19061
+" ";"Ankaran/Ancarano";3227
+" ";"Apaèe";3564
+" ";"Beltinci";8258
+" ";"Benedikt";2506
+" ";"Bistrica ob Sotli";1368
+" ";"Bled";7998
+" ";"Bloke";1541
+" ";"Bohinj";5127
+" ";"Borovnica";4295
+" ";"Bovec";3098
+" ";"Braslovèe";5528
+" ";"Brda";5664
+" ";"Brezovica";12017
+" ";"Brežice";24216
+" ";"Cankova";1792
+" ";"Celje";49221
+" ";"Cerklje na Gorenjskem";7532
+" ";"Cerknica";11469
+" ";"Cerkno";4620
+" ";"Cerkvenjak";2043
+" ";"Cirkulane";2301
+" ";"Èrenšovci";3980
+" ";"Èrna na Koroškem";3324
+" ";"Èrnomelj";14400
+" ";"Destrnik";2548
+" ";"Divaèa";3989
+" ";"Dobje";987
+" ";"Dobrepolje";3897
+" ";"Dobrna";2230
+" ";"Dobrova - Polhov Gradec";7600
+" ";"Dobrovnik/Dobronak";1266
+" ";"Dol pri Ljubljani";5955
+" ";"Dolenjske Toplice";3412
+" ";"Domžale";35458
+" ";"Dornava";2894
+" ";"Dravograd";8932
+" ";"Duplek";6777
+" ";"Gorenja vas - Poljane";7481
+" ";"Gorišnica";3982
+" ";"Gorje";2828
+" ";"Gornja Radgona";8471
+" ";"Gornji Grad";2551
+" ";"Gornji Petrovci";2044
+" ";"Grad";2141
+" ";"Grosuplje";20181
+" ";"Hajdina";3710
+" ";"Hoèe - Slivnica";11235
+" ";"Hodoš/Hodos";372
+" ";"Horjul";2976
+" ";"Hrastnik";9314
+" ";"Hrpelje - Kozina";4369
+" ";"Idrija";11888
+" ";"Ig";7209
+" ";"Ilirska Bistrica";13523
+" ";"Ivanèna Gorica";16276
+" ";"Izola/Isola";15920
+" ";"Jesenice";20713
+" ";"Jezersko";618
+" ";"Juršinci";2361
+" ";"Kamnik";29407
+" ";"Kanal";5386
+" ";"Kidrièevo";6429
+" ";"Kobarid";4107
+" ";"Kobilje";570
+" ";"Koèevje";15965
+" ";"Komen";3545
+" ";"Komenda";6033
+" ";"Koper/Capodistria";51140
+" ";"Kostanjevica na Krki";2414
+" ";"Kostel";639
+" ";"Kozje";3102
+" ";"Kranj";56081
+" ";"Kranjska Gora";5289
+" ";"Križevci";3638
+" ";"Krško";25948
+" ";"Kungota";4756
+" ";"Kuzma";1583
+" ";"Laško";13175
+" ";"Lenart";8270
+" ";"Lendava/Lendva";10517
+" ";"Litija";15215
+" ";"Ljubljana";288179
+" ";"Ljubno";2586
+" ";"Ljutomer";11441
+" ";"Log - Dragomer";3611
+" ";"Logatec";13815
+" ";"Loška dolina";3856
+" ";"Loški Potok";1855
+" ";"Lovrenc na Pohorju";3094
+" ";"Luèe";1490
+" ";"Lukovica";5765
+" ";"Majšperk";3996
+" ";"Makole";2039
+" ";"Maribor";110543
+" ";"Markovci";4030
+" ";"Medvode";16123
+" ";"Mengeš";7716
+" ";"Metlika";8354
+" ";"Mežica";3573
+" ";"Miklavž na Dravskem polju";6542
+" ";"Miren - Kostanjevica";4820
+" ";"Mirna";2526
+" ";"Mirna Peè";2932
+" ";"Mislinja";4590
+" ";"Mokronog - Trebelno";3032
+" ";"Moravèe";5250
+" ";"Moravske Toplice";5831
+" ";"Mozirje";4062
+" ";"Murska Sobota";18923
+" ";"Muta";3373
+" ";"Naklo";5310
+" ";"Nazarje";2587
+" ";"Nova Gorica";31798
+" ";"Novo mesto";36480
+" ";"Odranci";1632
+" ";"Oplotnica";4116
+" ";"Ormož";12288
+" ";"Osilnica";370
+" ";"Pesnica";7411
+" ";"Piran/Pirano";17823
+" ";"Pivka";6080
+" ";"Podèetrtek";3323
+" ";"Podlehnik";1810
+" ";"Podvelka";2365
+" ";"Poljèane";4436
+" ";"Polzela";6142
+" ";"Postojna";16124
+" ";"Prebold";5050
+" ";"Preddvor";3592
+" ";"Prevalje";6781
+" ";"Ptuj";23137
+" ";"Puconci";5958
+" ";"Raèe - Fram";7153
+" ";"Radeèe";4265
+" ";"Radenci";5143
+" ";"Radlje ob Dravi";6218
+" ";"Radovljica";18823
+" ";"Ravne na Koroškem";11321
+" ";"Razkrižje";1293
+" ";"Reèica ob Savinji";2313
+" ";"Renèe - Vogrsko";4347
+" ";"Ribnica";9396
+" ";"Ribnica na Pohorju";1178
+" ";"Rogaška Slatina";11047
+" ";"Rogašovci";3077
+" ";"Rogatec";3084
+" ";"Ruše";7092
+" ";"Selnica ob Dravi";4494
+" ";"Semiè";3797
+" ";"Sevnica";17483
+" ";"Sežana";13180
+" ";"Slovenj Gradec";16686
+" ";"Slovenska Bistrica";25406
+" ";"Slovenske Konjice";14662
+" ";"Sodražica";2183
+" ";"Solèava";521
+" ";"Središèe ob Dravi";2029
+" ";"Starše";4056
+" ";"Straža";3837
+" ";"Sveta Ana";2319
+" ";"Sveta Trojica v Slov. goricah";2058
+" ";"Sveti Andraž v Slov. goricah";1153
+" ";"Sveti Jurij ob Šèavnici";2856
+" ";"Sveti Jurij v Slov. goricah";2088
+" ";"Sveti Tomaž";2031
+" ";"Šalovci";1436
+" ";"Šempeter - Vrtojba";6286
+" ";"Šenèur";8585
+" ";"Šentilj";8417
+" ";"Šentjernej";7017
+" ";"Šentjur";18996
+" ";"Šentrupert";2917
+" ";"Škocjan";3241
+" ";"Škofja Loka";22942
+" ";"Škofljica";10793
+" ";"Šmarje pri Jelšah";10259
+" ";"Šmarješke Toplice";3294
+" ";"Šmartno ob Paki";3230
+" ";"Šmartno pri Litiji";5539
+" ";"Šoštanj";8673
+" ";"Štore";4229
+" ";"Tabor";1643
+" ";"Tišina";4028
+" ";"Tolmin";11256
+" ";"Trbovlje";16282
+" ";"Trebnje";12438
+" ";"Trnovska vas";1354
+" ";"Trzin";3902
+" ";"Tržiè";14839
+" ";"Turnišèe";3264
+" ";"Velenje";32825
+" ";"Velika Polana";1449
+" ";"Velike Lašèe";4286
+" ";"Veržej";1291
+" ";"Videm";5522
+" ";"Vipava";5600
+" ";"Vitanje";2271
+" ";"Vodice";4811
+" ";"Vojnik";8741
+" ";"Vransko";2603
+" ";"Vrhnika";16799
+" ";"Vuzenica";2669
+" ";"Zagorje ob Savi";16655
+" ";"Zavrè";1778
+" ";"Zreèe";6424
+" ";"Žalec";21269
+" ";"Železniki";6689
+" ";"Žetale";1289
+" ";"Žiri";4847
+" ";"Žirovnica";4360
+" ";"Žužemberk";4587
+
+"Od objave podatkov o prebivalstvu Slovenije po 1.1. 2008 uporabljamo "
+"na Statistiènem uradu Republike Slovenije (seznam "
+"HREF=http://www.stat.si/StatWeb/glavnanavigacija/podatki/prikazistaro-"
+"novico?IdNovice=2319 TARGET=_blank) spremenjeno statistièno "
+"definicijo prebivalstva. To pomeni prelom v èasovni vrsti podatkov, "
+"zato podatki po tej definiciji, torej podatki od sredine leta 2008 "
+"dalje, niso neposredno primerljivi s podatki za predhodna stanja. "
+" "
+"Vir: Statistièni urad Republike Slovenije."
+
+"Povezane vsebine: "
+"- (seznam HREF=http://www.stat.si/StatWeb/File/DocSysFile/7808 "
+"target=_blank) Metodološka pojasnila "
+
+"Podatki so teritorialno razvršèeni po uredbi o Standardni "
+"klasifikaciji teritorialnih enot ((seznam "
+"HREF=http://www.stat.si/StatWeb/glavnanavigacija/metode-in-klasifikac-"
+"ije/klasifikacije TARGET=_blank) opis in pojasnila), raven SKTE 5. "
+"Podatki o spremembah posameznih obèin so dostopni na (seznam "
+"HREF=http://www.stat.si/StatWeb/glavnanavigacija/metode-in-klasifikac-"
+"ije/klasifikacije/spremembe-obmocij-obcin TARGET=_blank) povezavi. V "
+"Seznamu obèin s spremembami obmoèij obèin od leta 1995 dalje je "
+"opisana vrsta spremembe, naveden je datum, s katerim je opisana "
+"teritorialna sprememba upoštevana pri teritorialnem razvršèanju enot "
+"za statistiène namene ter naveden Uradni list, v katerem so bile "
+"objavljene omenjene teritorialne opombe. V seznamu obèin je navedeno "
+"zadnje veljavno stanje imen obèin."
+
+"H1 je po stanju 1. 1. "
+"H2 je po stanju 1. 7."
+
