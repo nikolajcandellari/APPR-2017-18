@@ -87,8 +87,23 @@ get.reports <- function(type = 18, year = 2017, unit.ids = NULL) {
   session$data["ctl00$cphMain$rvMain$ctl11"] <- "standards"
   # Naredimo zahtevek, da pridobimo obrazec.
   fields <- get.fields(session)
-  # Preberemo obrazec.
-  form_html <- read.panel(fields, "ctl00_cphMain_up")
+  if (type == 18) {
+    # Preberemo obrazec.
+    form_html <- read.panel(fields, "ctl00_cphMain_up")
+  } else {
+    # Nastavimo parametre za pridobivanje seznama enot.
+    session$data["__EVENTARGUMENT"] <- ""
+    session$data["__EVENTTARGET"] <- "ctl00$cphMain$rvMain$ctl04$ctl07$ddValue"
+    session$data["ctl00$scMain"] <- "ctl00$scMain|ctl00$cphMain$rvMain$ctl04$ctl07$ddValue"
+    session$data["ctl00$cphMain$rvMain$ctl10"] <- "ltr"
+    session$data["ctl00$cphMain$rvMain$ctl04$ctl07$ddValue"] <- type.id
+    session$data["ctl00$cphMain$rvMain$ctl04$ctl11$ddValue"] <- year.id
+    session$data["ctl00$cphMain$rvMain$ctl04$ctl13$txtValue"] <- "Poročilo ni večjega obsega"
+    # Naredimo zahtevek, da pridobimo obrazec.
+    fields <- get.fields(session)
+    # Preberemo obrazec.
+    form_html <- read.panel(fields, "ctl00_cphMain_rvMain_ReportViewer")
+  }
   # Preberemo seznam enot.
   units <- form_html %>%
     html_nodes(xpath="//select[@name='ctl00$cphMain$rvMain$ctl04$ctl09$ddValue']/option") %>%
