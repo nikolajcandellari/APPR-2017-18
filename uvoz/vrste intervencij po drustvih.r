@@ -57,11 +57,12 @@ read.panel <- function(fields, name) {
 #   * type      Šifra vrste enote.
 #               Privzeta vrednost 18 je za
 #               Prostovoljna teritorialna gasilska društva
+#               za poklicne enote pa 16
 #   * year      Leto - šifra se izračuna tako,
 #               da se od njega odšteje 1999.
 #   * unit.ids  Vektor šifer enot.
 #               Če ni podan, se uvozijo podatki za vse enote.
-get.reports <- function(type = 18, year = 2017, unit.ids = NULL) {
+get.reports <- function(type, year = 2016, unit.ids = NULL) {
   type.id <- as.character(type)
   year.id <- as.character(year - 2009)
   # Seznam z aktualnimi podatki o seji

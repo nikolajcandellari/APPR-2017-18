@@ -7,9 +7,12 @@ library(readr)
 sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
 
 
-#SPODNJE VRSTICE NE POGANJAJ VEDNO, PORABI OGROMNO ČASA!!!!
+#SPODNJE VRSTICE NE POGANJAJ VEDNO, PORABI OGROMNO ČASA!!!! 
+#Drugače spodnja vrstica uvozi število intervencij po kategorijah za poklicne
+#enote in prostovoljna drustva za leto 2016
 #
-#write_csv(get.reports(), "podatki/vrste intervencij po drustvih.csv")
+#write_csv(get.reports(type = 18), "podatki/vrste intervencij po drustvih.csv")
+#write_csv(get.reports(type = 16), "podatki/vrste intervencij po poklicnih enotah.csv")
 
 # Zapišimo podatke v razpredelnice
   obcine <- uvozi.obcine()
@@ -33,6 +36,7 @@ sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
                                               skip = 5, n_max = 212,
                                               locale = locale(encoding = "CP1250", grouping_mark=";"), 
                                               col_names = c("1", "obcina", "populacija"))
+  
   for (i in 1:length(stevilo.prebivalcev.po.obcinah$obcina)) {
         stevilo.prebivalcev.po.obcinah$obcina[i] <- 
               head(first(strsplit(stevilo.prebivalcev.po.obcinah$obcina[i], "/"))[1]) %>% toupper()
@@ -43,7 +47,23 @@ sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
 
 #podatki iz funkcije "vrste intervencij po drustvih.r", ki smo jih shranili v datoteko
 
-  vrste.intervencij.po.drustvih <- read_csv("podatki/vrste intervencij po drustvih.csv", encoding = "UTF-8") 
+  vrste.intervencij.po.drustvih <- read_csv("podatki/vrste intervencij po drustvih.csv") 
+  
+  poklicne <- function(link = "podatki/vrste intervencij po poklicnih enotah.csv"){
+              vrste.intervencij.po.poklicnih.enotah <- read_csv(link)
+              aktivnost <- vrste.intervencij.po.poklicnih.enotah$aktivnost
+              stevilo <- vrste.intervencij.po.poklicnih.enotah$stevilo
+              enota <- vrste.intervencij.po.poklicnih.enotah$enota 
+              nbsp <- rawToChar(as.raw(160))
+              enota <- gsub(nbsp, " ", enota) %>%
+                        gsub("GARS |GB |GASILSKI ZAVOD |JZ GRS |JZGB |PGE |ZGRS |CZR |GRC |JZ GB |JZ GRD GE ", "", .) %>%
+                        toupper()
+              tabela <- data.frame(aktivnost, stevilo, enota)
+  return(tabela)
+  }
+  
+  vrste.intervencij.po.poklicnih.enotah <- poklicne()
+  vrste.intervencij.po.drustvih.in.enotah <- bind_rows(vrste.intervencij.po.drustvih, vrste.intervencij.po.poklicnih.enotah)
   
   uvozi.poste <- function(crka) {
     link <- sprintf("https://sl.wikipedia.org/wiki/Seznam_naselij_v_Sloveniji_(%s)", crka)

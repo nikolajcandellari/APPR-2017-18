@@ -30,7 +30,7 @@ osnovna.podvojene <- osnovna %>% filter(!drustvo %in% osnovna.OK, obcina == OBCI
 
 napredna <- rbind(osnovna.OK, osnovna.podvojene) %>% na.omit()
 
-obcine <- left_join(napredna, vrste.intervencij.po.drustvih, by=c("drustvo" = "enota"))
+obcine <- left_join(napredna, vrste.intervencij.po.drustvih.in.enotah, by=c("drustvo" = "enota")) %>% unique()
 
 #grupiramo podatke po obcinah da jih bomo lahko predstavili v obliki zemljevida obcin
 
