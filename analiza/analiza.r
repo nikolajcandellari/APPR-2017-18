@@ -48,4 +48,8 @@ intervencije.po.obcinah <- obcine %>% group_by(obcina, aktivnost) %>% summarise(
                           
     return(graf)
   }    
+
+  vrsta.pozarov.po.letih <- group_by(pozari.vrsta, VrstaDogodka1, Leto1) %>% summarise(stevilo = sum(PKID2))
+  vrsta.pozarov.po.letih$stevilo <- round(vrsta.pozarov.po.letih$stevilo)
+  
   

@@ -20,6 +20,11 @@ sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
   pozari.cas <- read_csv("podatki/pozari po urah.csv", skip = 10)
 
   pozari.vrsta <- read_csv("podatki/pozarne intervencije.csv", skip = 7, n_max = 221)
+  for (i in length(pozari.vrsta$PKID2)){
+    if (pozari.vrsta$PKID2[i] != round(pozari.vrsta$PKID2[i])){
+        pozari.vrsta$PKID2[i] <- 1000 * pozari.vrsta$PKID2
+    }
+  }
 
   pozari.skoda.vrsta <- read_csv("podatki/pozari skoda.csv", skip = 93)
   pozari.skoda.cena <- read_csv("podatki/pozari skoda.csv", n_max = 91)
