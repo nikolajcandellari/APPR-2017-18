@@ -51,5 +51,11 @@ intervencije.po.obcinah <- obcine %>% group_by(obcina, aktivnost) %>% summarise(
 
   vrsta.pozarov.po.letih <- group_by(pozari.vrsta, VrstaDogodka1, Leto1) %>% summarise(stevilo = sum(PKID2))
   vrsta.pozarov.po.letih$stevilo <- round(vrsta.pozarov.po.letih$stevilo)
+  ggplot(vrsta.pozarov.po.letih, aes(x = Leto1, y = stevilo,  fill = VrstaDogodka1)) + geom_histogram(stat = "identity") +
+    labs(title="stevilo pozarov skozi leta", x = "leta")
   
+  
+  spreminjanje.stevila.intervencij.skozi.leta <- group_by(intervencije.po.kategorijah.skozi.leta, Leto, VrstaDogodka) %>% 
+    summarise(število = sum(Število))
+  ggplot(spreminjanje.stevila.intervencij.skozi.leta, aes(x = Leto, y = število,  fill = VrstaDogodka)) + geom_histogram(stat = "identity")
   

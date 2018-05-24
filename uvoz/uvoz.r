@@ -34,6 +34,11 @@ sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
 
   intervencije.po.kategorijah.skozi.leta <- read_csv("podatki/Pregled dogodkov po kategorijah od 2005-2017.csv",
                                                       skip = 5, n_max=559)
+  for (i in length(intervencije.po.kategorijah.skozi.leta$Število)){
+    if (intervencije.po.kategorijah.skozi.leta$Število[i] != round(intervencije.po.kategorijah.skozi.leta$Število[i])){
+      intervencije.po.kategorijah.skozi.leta$Število[i] <- 1000 * intervencije.po.kategorijah.skozi.leta$Število[i]
+    }
+  }
   
 #število prebivalcev po občinah, uvoz iz spletne strani  
   
