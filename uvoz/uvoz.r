@@ -6,7 +6,6 @@ library(readr)
 
 sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
 
-
 #SPODNJE VRSTICE NE POGANJAJ VEDNO, PORABI OGROMNO ČASA!!!! 
 #Drugače spodnja vrstica uvozi število intervencij po kategorijah za poklicne
 #enote in prostovoljna drustva za leto 2016
@@ -15,7 +14,6 @@ sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
 #write_csv(get.reports(type = 16), "podatki/vrste intervencij po poklicnih enotah.csv")
 
 # Zapišimo podatke v razpredelnice
-  obcine <- uvozi.obcine()
 
   pozari.cas <- read_csv("podatki/pozari po urah.csv", skip = 10)
 

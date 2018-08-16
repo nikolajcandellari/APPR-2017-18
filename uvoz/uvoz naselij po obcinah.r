@@ -326,6 +326,5 @@ uvozi.naselja.na.Ž <- function(){
 tabela.Ž = uvozi.naselja.na.Ž()
 
 # tabela naselji in občin ki jo bomo potrebovali za grafično analizo
-tabela.naselji = bind_rows(tabela.A, tabela.B, tabela.C, tabela.Č, tabela.D, tabela.E, tabela.F, tabela.G, tabela.H, tabela.I, tabela.J, tabela.K, tabela.L, tabela.M, tabela.N, tabela.O, tabela.P, tabela.R, tabela.S, tabela.Š, tabela.T, tabela.U, tabela.V, tabela.Z, tabela.Ž)
+tabela.naselji <- bind_rows(tabela.A, tabela.B, tabela.C, tabela.Č, tabela.D, tabela.E, tabela.F, tabela.G, tabela.H, tabela.I, tabela.J, tabela.K, tabela.L, tabela.M, tabela.N, tabela.O, tabela.P, tabela.R, tabela.S, tabela.Š, tabela.T, tabela.U, tabela.V, tabela.Z, tabela.Ž)
 tabela.naselji.toupper <- data.frame(NASELJE = toupper(tabela.naselji$naselja), OBCINA =toupper(tabela.naselji$obcine))
-View(tabela.naselji.toupper)
