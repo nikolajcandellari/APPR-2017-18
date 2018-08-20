@@ -33,8 +33,18 @@ intervencije.po.obcinah <- obcine %>% group_by(obcina, aktivnost) %>% summarise(
                     left_join(stevilo.prebivalcev.po.obcinah, by=c("obcina" = "obcina"))
     zemljevid.kategorije <- left_join(zemljevid, vrsta, by=c("OB_IME.x" = "obcina"))
     graf <- ggplot() + geom_polygon(data=zemljevid.kategorije, 
-                          aes(long, lat, group=group, fill=stevilo))+ #fill=(stevilo*10^9/(POVRSINA*populacija)^(0.5)))) +
-                          theme_bw() + labs(title="stevilo intervencij po kategorijah")
+                          aes(long, lat, group=group, fill=stevilo))+
+                          theme(axis.line=element_blank(),
+                                axis.text.x=element_blank(),
+                                axis.text.y=element_blank(),
+                                axis.ticks=element_blank(),
+                                axis.title.x=element_blank(),
+                                axis.title.y=element_blank(),
+                                panel.background=element_blank(),
+                                panel.border=element_blank(),
+                                panel.grid.major=element_blank(),
+                                panel.grid.minor=element_blank(),
+                                plot.background=element_blank())
                           
     return(graf)
   }    

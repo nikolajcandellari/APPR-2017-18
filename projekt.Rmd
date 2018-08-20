@@ -22,6 +22,8 @@ source("uvoz/uvoz.r", encoding = "UTF-8")
 source("vizualizacija/vizualizacija.r", encoding = "UTF-8")
 #analiza
 source("analiza/analiza.r", encoding = "UTF-8")
+#shiny
+source("shiny/app.R", encoding = "UTF-8")
 ```
 
 
@@ -64,10 +66,15 @@ Večina teh enot se nahaja v večjih mestih, na območju prometnih cest(npr. ob 
 
 Zgornji sistem slovenskega gasilstva bom prikazal na karti Slovenije pri čemer sem gasilske enote grupiral po občinah zato da bo njihova analiza nekoliko lažja ter predvsem, ker nisem nikjer našel zemljevida, ki bi razmejeval območja delovanja med gasilskimi enotami v Sloveniji.
 
-```{r}
-vrsta.intervencij("POŽARI IN EKSPLOZIJE")
+```{r, warning=FALSE}
+shinyApp(ui, server)
 ```
 
+Pri analizi zgornjega zemljevida zelo hitro ugotovimo, da so požarne intervencije dokaj enakomerno porazporejene med različne občine(posledično torej med različna društva). Večja odstopanja se pojavijo le v okolici večjih mest in pa na požarno zelo ogroženem primorskem koncu.
+
+Ob pogledu na karto tehničnih ali prometnih intervencij pa lahko opazimo centralizacijo le teh intervencij na občine v katerih delujejo enote dodatno usposobljene za takšna posredovanja.
 
 
-## Analiza požarov v Sloveniji
+## Pregled števila intervencij skozi leta
+
+
