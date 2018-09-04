@@ -32,15 +32,21 @@ sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
 
   intervencije.po.kategorijah.skozi.leta <- read_csv("podatki/Pregled dogodkov po kategorijah od 2005-2017.csv",
                                                       skip = 5, n_max=559)
-#  intervencije.po.kategorijah.skozi.leta$Število <-for (i in length(intervencije.po.kategorijah.skozi.leta$VrstaDogodka)){
-#    if (intervencije.po.kategorijah.skozi.leta$Število[i] != round(intervencije.po.kategorijah.skozi.leta$Število[i])){
-#      intervencije.po.kategorijah.skozi.leta$Število[i] <- 1000 * intervencije.po.kategorijah.skozi.leta$Število[i]
-#    }
-#    else{
-#      intervencije.po.kategorijah.skozi.leta$Število[i] <- intervencije.po.kategorijah.skozi.leta$Število[i]
-#    }
-#  }
- 
+  
+  intervencije.po.kategorijah.skozi.leta$Število <- function(){
+    dolzina <- length(intervencije.po.kategorijah.skozi.leta$VrstaDogodka)
+    a = integer(dolzina)
+                       
+  for (i in c(1:dolzina)){
+    if (intervencije.po.kategorijah.skozi.leta$SkupinaDogodka[i] %in% c("Požari v objektih" , "Nesreče v cestnem prometu" , "Požari v naravi oziroma na prostem" , "Tehnična in druga pomoč")){
+      a[i] <- 1000 * intervencije.po.kategorijah.skozi.leta$Število[i]
+    }
+    else{
+      a[i] <- intervencije.po.kategorijah.skozi.leta$Število[i]
+      }
+    }
+    return(a)
+  }
 #število prebivalcev po občinah, uvoz iz spletne strani  
   
   stevilo.prebivalcev.po.obcinah <- read_csv2("podatki/stevilo prebivalcev po obcinah za leto 2016.csv",
