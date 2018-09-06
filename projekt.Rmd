@@ -29,7 +29,7 @@ source("shiny/app.R", encoding = "UTF-8")
 
 Gasilske enote v Sloveniji so poleg ekip nujne medicinske pomoči interventne skupine, ki so največkrat poklicane na pomoč ljudem ob različnih vrstah nesreč. Med posameznimi gasilskimi ekipami obstajajo velike razlike v opremljenosti, usposobljenosti in velikosti moštva. Razlike med njimi ter njihovo aktivnost bom analiziral v tem poročilu.
 
-![]()
+![](podatki/Delo-Foto-20171004123148-99050900.jpeg)
 
 
 ## Uvoz in čiščenje podatkov
@@ -105,17 +105,24 @@ Opazno je, da nihanje požarnih intervencij sledi iz neenakomernega števila po�
 
 Skozi leta skokovito narašča število tehničnih posegov, kateri so pravzaprav edini razlog za skupno rast intervencij skozi leta. 
 Pod tehnične intervencije spadajo:
+
 *izčrpavanje vode iz objektov(če za to ni kriva narava-v tem primeru je to naravna nesreča)
+
 *odstranjevanje sršenjih, osjih in drugih gnezd
+
 *pomoč pri prenosih ponesrečencev
+
 *izvleki avtomobilov, tovornjakov,...
+
 *reševanje ljudi in živali s pomočjo vrvne tehnike(oz. plezalne opreme)
+
 *iskanje pogrešanih oseb
+
 *odpiranje vrata za dostopanje do onemoglih oseb
-*itd.
+
 
 Gasilske enote so torej čedalje pogoste klicane na pomoč tudi v situacijah, kjer bi lahko posredovale druge reševalne skupine ali uniformirane enote(npr. civilna zaščita, lovci, jamarji, vojska,...). Razlog tiči predvsem v njihovem hitrem odzivu in dobre publicitete, ki jo v tem času uživa gasilstvo. Poleg tega pa je v Sloveniji mnogo enot prostovoljne narava s čimer je to za državo dosti ceneje. 
 
 ##Zaključek 
 
-Čeprav število intervencij raste skozi leta, to ni posledica večje ogroženosti ljudi temveč širjenje pristojnosti gasilske organizacije na Slovenskem. 
+Čeprav število intervencij raste skozi leta, to ni posledica večje ogroženosti ljudi temveč širjenja pristojnosti gasilske organizacije na Slovenskem. 

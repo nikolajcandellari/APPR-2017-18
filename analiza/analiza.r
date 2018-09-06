@@ -29,8 +29,7 @@ intervencije.po.obcinah <- obcine %>% group_by(obcina, aktivnost) %>% summarise(
 #izrišemo graf slovenskih občin pravih dimenzij
 
   vrsta.intervencij <- function(kategorija){
-    vrsta <-  filter(intervencije.po.obcinah, aktivnost == kategorija) %>% 
-                    left_join(stevilo.prebivalcev.po.obcinah, by=c("obcina" = "obcina"))
+    vrsta <-  filter(intervencije.po.obcinah, aktivnost == kategorija)
     zemljevid.kategorije <- left_join(zemljevid, vrsta, by=c("OB_IME.x" = "obcina"))
     graf <- ggplot() + geom_polygon(data=zemljevid.kategorije, 
                           aes(long, lat, group=group, fill=stevilo))+
@@ -52,7 +51,7 @@ intervencije.po.obcinah <- obcine %>% group_by(obcina, aktivnost) %>% summarise(
   
 # izdelava grafa za analizo števila intervencij skozi leta
   stevilo.skozi.leta <-intervencije.po.kategorijah.skozi.leta %>% group_by(., Leto) %>% summarise(Število = sum(Število)) %>% 
-    ggplot(., aes(x=Leto, y=Število)) + geom_area(fill="blue")
+    ggplot(., aes(x=Leto, y=Število)) + geom_area(fill="white")
 
 #Število intervencij po kategorijah skozi leta
   kategorije.skozi.leta <- intervencije.po.kategorijah.skozi.leta %>% group_by(., VrstaDogodka, Leto) %>% summarise(Število = sum(Število)) %>%

@@ -5,18 +5,12 @@ Gasilske enote so poleg ekip NMP-jev(nujne medicinske pomoči) ene izmed najpogo
 
 ## Tematika
 
-Cilj tega projekta bo torej analiza števila intervencij po posameznih društvih(npr. poklicnih enotah) za leto 2016, podrobnejša analiza požarov(število požarov po regijah, povzočena škoda, vzrok, čas nastanka, ... ) ter med letno primerjanje števila intervencij po posameznih kategorijah...
+Cilj tega projekta bo torej analiza števila intervencij po posameznih društvih(npr. poklicnih enotah) za leto 2016, podrobnejša analiza kategorij posredovanj skozi leta in iskanje razlogov za take razmere.
 
-1.tabela: število intervencij po društvih (društvo, št.intervencij, vrsta intervencij,...)
-
-2.tabela: med letno primerjanje št. intervencij po kategorijah(leto, kategorija, število)
-
-3.tabela: analiza požarov v Sloveniji(društvo, vzrok, čas nastanka, povzročena škoda, vrsta požara(npr. požar stanovanjskega objekta, požar osebnega vozila, itd.))
-
-Kot vir bom uporabljal spletno stran:
-
+Kot vir bom uporabljal spletne strani:
 
 http://spin.sos112.si/SPIN2/Javno/
+http://www.gasilec.net/
 
 
 ## Program
