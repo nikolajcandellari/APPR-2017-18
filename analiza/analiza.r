@@ -26,7 +26,7 @@ obcine <- left_join(napredna, vrste.intervencij.po.drustvih.in.enotah, by=c("dru
 
 intervencije.po.obcinah <- obcine %>% group_by(obcina, aktivnost) %>% summarise(stevilo=sum(stevilo))
 
-#izrišemo graf pravih dimenzij
+#izrišemo graf slovenskih občin pravih dimenzij
 
   vrsta.intervencij <- function(kategorija){
     vrsta <-  filter(intervencije.po.obcinah, aktivnost == kategorija) %>% 
@@ -38,6 +38,7 @@ intervencije.po.obcinah <- obcine %>% group_by(obcina, aktivnost) %>% summarise(
                                 axis.text.x=element_blank(),
                                 axis.text.y=element_blank(),
                                 axis.ticks=element_blank(),
+                                plot.title=element_blank(),
                                 axis.title.x=element_blank(),
                                 axis.title.y=element_blank(),
                                 panel.background=element_blank(),
@@ -48,14 +49,19 @@ intervencije.po.obcinah <- obcine %>% group_by(obcina, aktivnost) %>% summarise(
                           
     return(graf)
   }    
+  
+# izdelava grafa za analizo števila intervencij skozi leta
+  stevilo.skozi.leta <-intervencije.po.kategorijah.skozi.leta %>% group_by(., Leto) %>% summarise(Število = sum(Število)) %>% 
+    ggplot(., aes(x=Leto, y=Število)) + geom_area(fill="blue")
 
-  vrsta.pozarov.po.letih <- group_by(pozari.vrsta, VrstaDogodka1, Leto1) %>% summarise(stevilo = sum(PKID2))
-  vrsta.pozarov.po.letih$stevilo <- round(vrsta.pozarov.po.letih$stevilo)
-  ggplot(vrsta.pozarov.po.letih, aes(x = Leto1, y = stevilo,  fill = VrstaDogodka1)) + geom_histogram(stat = "identity") +
-    labs(title="stevilo pozarov skozi leta", x = "leta")
-  
-  
-  spreminjanje.stevila.intervencij.skozi.leta <- group_by(intervencije.po.kategorijah.skozi.leta, Leto, VrstaDogodka) %>% 
-    summarise(število = sum(Število))
-  ggplot(spreminjanje.stevila.intervencij.skozi.leta, aes(x = Leto, y = število,  fill = VrstaDogodka)) + geom_histogram(stat = "identity")
-  
+#Število intervencij po kategorijah skozi leta
+  kategorije.skozi.leta <- intervencije.po.kategorijah.skozi.leta %>% group_by(., VrstaDogodka, Leto) %>% summarise(Število = sum(Število)) %>%
+  ggplot(., aes(Leto, Število, color=VrstaDogodka)) + geom_line(size = 5) + theme(legend.key.width = unit(2, "cm"))
+
+
+#Požari skozi leta po vrstah
+   vrsta.pozarov.po.letih <- group_by(pozari.vrsta, VrstaDogodka1, Leto1) %>% summarise(stevilo = sum(PKID2))
+   vrsta.pozarov.po.letih$stevilo <- round(vrsta.pozarov.po.letih$stevilo)
+   pozari.po.letih <-ggplot(vrsta.pozarov.po.letih, aes(x = Leto1, y = stevilo,  fill = VrstaDogodka1)) + geom_histogram(stat = "identity") +
+                        labs(title="stevilo pozarov skozi leta", x = "leta")
+   

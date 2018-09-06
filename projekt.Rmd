@@ -29,10 +29,21 @@ source("shiny/app.R", encoding = "UTF-8")
 
 Gasilske enote v Sloveniji so poleg ekip nujne medicinske pomoči interventne skupine, ki so največkrat poklicane na pomoč ljudem ob različnih vrstah nesreč. Med posameznimi gasilskimi ekipami obstajajo velike razlike v opremljenosti, usposobljenosti in velikosti moštva. Razlike med njimi ter njihovo aktivnost bom analiziral v tem poročilu.
 
+![]()
 
-## Kategorizacija gasilskih enot
 
-V Sloveniji imamo tri različne vrste gasilskih enot glede na njihovo sestavo:
+## Uvoz in čiščenje podatkov
+
+V tem delu sem iz spletne strani [SPIN](http://spin.sos112.si/SPIN2/Javno/Porocila/)  želel pridobiti podatke o številu in vrsti intervencij za vsako enoto ločeno od ostalih vendar v isti tabeli. Ker pa je spletni brskalnik vračal rezultate samo za eno enoto naenkrat sem podatke pridobil šele ob precejšni pomoči asistenta. S temi podatki sem nato želel pojasniti in pokazati kakšen sistem gasilstva imamo v sloveniji. 
+
+### Zakonoadja
+
+Način določanja kategorizacije temelji predvsem na dveh zakonih in sicer:
+
+* [**Zakon o gasilstvu**](http://pisrs.si/Pis.web/pregledPredpisa?id=ZAKO301)
+* [**Zakon o društvih**](http://pisrs.si/Pis.web/pregledPredpisa?id=ZAKO4242)
+
+V Sloveniji imamo tako tri različne vrste gasilskih enot glede na njihovo sestavo:
 
 * **Prostovoljne gasilske enote** 
     
@@ -43,38 +54,68 @@ V Sloveniji imamo tri različne vrste gasilskih enot glede na njihovo sestavo:
 
 Pri čemer se znotraj vsake od teh vrst enote delijo še na dve ali tri podvrste(**kategorije**)
 
-Način določanja kategorizacije temelji predvsem na dveh zakonih in sicer:
-
-* [**Zakon o gasilstvu**](http://pisrs.si/Pis.web/pregledPredpisa?id=ZAKO301)
-* [**Zakon o društvih**](http://pisrs.si/Pis.web/pregledPredpisa?id=ZAKO4242)
-
 Iz zgornjih zakonov sledi, da kategorijo društva določa država in občina v kateri društvo deluje.
 
-### Kategorizacija društva s strani občine
+#### Kategorizacija društva s strani občine
 
 Kategorija posamezne enote se določi glede na velikost naselja v katerem se društvo nahaja, gostoto poseljenosti območja delovanja enote, velikost in stopnjo požarne ogroženosti gozdov na območju ter pomembnosti kraja (npr. Ljubljana je kot glavno mesto pomembnejše, kot recimo Maribor, Celje,...)
 
 Občine glede na zgornje kategorije posamezne enote ustrezno opremijo in poskrbijo za njihovo usposobljenost, predvsem na področju gašenja različnih vrst požarov in naravnih nesreč.
  
-### Kategorizacija društva s strani države(neposredno)
+#### Kategorizacija društva s strani države(neposredno)
 
 Za posredovanja pri prometnih, naravnih in tehničnih nesrečah, ki so po obsegu in trajanju ponavadi manj zahtevne kot požari in naravne nesreče, so s strani države glede na lokacijo in ogroženost okraja s takimi nesrečami izbrane nekatere gasilske enote, ki nato z Republiko Slovenijo podpišejo pogodbo pri kateri se zavežejo, da bodo ustrezno opremljene in usposobljene za to vrsto reševanj. Hkrati pa se država obveže, da bo te enote financirala in izobrazila.
 
-Večina teh enot se nahaja v večjih mestih, na območju prometnih cest(npr. ob avtocesti) ali ob večjih industrijskih obratih. 
+Večina teh enot se nahaja v večjih mestih, na območju prometnih cest ali ob večjih industrijskih obratih. 
 
-### Grafična analiza
+## vizualizacija in napredna analiza
 
-Zgornji sistem slovenskega gasilstva bom prikazal na karti Slovenije pri čemer sem gasilske enote grupiral po občinah zato da bo njihova analiza nekoliko lažja ter predvsem, ker nisem nikjer našel zemljevida, ki bi razmejeval območja delovanja med gasilskimi enotami v Sloveniji.
+Največji izziv tega projekta je bila zagotovo vizualizacija danih podatkov, saj nisem nikjer zasledil podatkov o tem na kako velikem področju deluje posamezna enota ter kje so meje njihovega posredovanja. Edina približno dobra ideja, ki se mi je porodila je bila, da sem iz spletne strani [Gasilec.net](http://www.gasilec.net/) za posamezne enote pridobil njihove naslove nato pa drustva grupiral po občinah saj sem iz osnutka poročila že imel zemljevid slovenskih občin.
 
-```{r, warning=FALSE}
+```{r, warning=FALSE, fig.height= 30}
 shinyApp(ui, server)
 ```
 
+
 Pri analizi zgornjega zemljevida zelo hitro ugotovimo, da so požarne intervencije dokaj enakomerno porazporejene med različne občine(posledično torej med različna društva). Večja odstopanja se pojavijo le v okolici večjih mest in pa na požarno zelo ogroženem primorskem koncu.
 
-Ob pogledu na karto tehničnih ali prometnih intervencij pa lahko opazimo centralizacijo le teh intervencij na občine v katerih delujejo enote dodatno usposobljene za takšna posredovanja.
+Ob pogledu na karto tehničnih ali prometnih intervencij pa lahko opazimo centralizacijo le teh intervencij na občine v katerih delujejo enote dodatno usposobljene za takšna posredovanja. Zelo lepo je tudi razvidno da so te enote enakomerno razporejene čez celotno Slovenijo in so tako sposobna pomagati komurkoli in kjerkoli.
 
 
-## Pregled števila intervencij skozi leta
+### Pregled števila intervencij skozi leta
+
+Sedaj, ko smo razložili sistem posredovanja gasilskih enot v Sloveniji nas zanima še kako se sploh giblje število posredovanj po različnih kategorijah skozi leta ter vzroke za nihanje števila intervencij. Predvsem pa nas zanima vprašanje: "Ali postajamo čedalje bolj zavarovani ali čedalje bolj ogroženi?"
 
 
+```{r, warning=FALSE, fig.width= 10, fig.height=5}
+
+stevilo.skozi.leta
+
+kategorije.skozi.leta
+```
+
+Opazno je da skozi leta narašča število posredovanj pri prometnih nesrečah, kar je posledica naraščajočega števila avtomobilov na naših cestah([SURS](https://www.stat.si/StatWeb/News/Index/6602)). 
+Dva podatka, ki izstopata pa sta zelo hitra rast tehničnih posegov in nihanje požarnih intervencij.
+
+```{r, warning=FALSE}
+pozari.po.letih
+```
+
+Opazno je, da nihanje požarnih intervencij sledi iz neenakomernega števila požarov v naravi skozi leta. Le ti pa so močno odvisni od naravnih spremeljivk(veter, padavine,...) na katere nimamo vpliva.
+
+Skozi leta skokovito narašča število tehničnih posegov, kateri so pravzaprav edini razlog za skupno rast intervencij skozi leta. 
+Pod tehnične intervencije spadajo:
+*izčrpavanje vode iz objektov(če za to ni kriva narava-v tem primeru je to naravna nesreča)
+*odstranjevanje sršenjih, osjih in drugih gnezd
+*pomoč pri prenosih ponesrečencev
+*izvleki avtomobilov, tovornjakov,...
+*reševanje ljudi in živali s pomočjo vrvne tehnike(oz. plezalne opreme)
+*iskanje pogrešanih oseb
+*odpiranje vrata za dostopanje do onemoglih oseb
+*itd.
+
+Gasilske enote so torej čedalje pogoste klicane na pomoč tudi v situacijah, kjer bi lahko posredovale druge reševalne skupine ali uniformirane enote(npr. civilna zaščita, lovci, jamarji, vojska,...). Razlog tiči predvsem v njihovem hitrem odzivu in dobre publicitete, ki jo v tem času uživa gasilstvo. Poleg tega pa je v Sloveniji mnogo enot prostovoljne narava s čimer je to za državo dosti ceneje. 
+
+##Zaključek 
+
+Čeprav število intervencij raste skozi leta, to ni posledica večje ogroženosti ljudi temveč širjenje pristojnosti gasilske organizacije na Slovenskem. 

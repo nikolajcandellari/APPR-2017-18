@@ -15,8 +15,6 @@ sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
 
 # Zapišimo podatke v razpredelnice
 
-  pozari.cas <- read_csv("podatki/pozari po urah.csv", skip = 10)
-
   pozari.vrsta <- read_csv("podatki/pozarne intervencije.csv", skip = 7, n_max = 221)
   for (i in length(pozari.vrsta$PKID2)){
     if (pozari.vrsta$PKID2[i] != round(pozari.vrsta$PKID2[i])){
@@ -24,43 +22,10 @@ sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
     }
   }
 
-  pozari.skoda.vrsta <- read_csv("podatki/pozari skoda.csv", skip = 93)
-  pozari.skoda.cena <- read_csv("podatki/pozari skoda.csv", n_max = 91)
-  
-  pozari.vzrok.povzrocitev <- read_csv("podatki/pozari po vzroku.csv", skip = 3, n_max = 222)
-  pozari.vzrok.vrsta.pozara <- read_csv("podatki/pozari po vzroku.csv", skip = 226)
-
   intervencije.po.kategorijah.skozi.leta <- read_csv("podatki/Pregled dogodkov po kategorijah od 2005-2017.csv",
-                                                      skip = 5, n_max=559)
+                                                      skip = 5, n_max=559, locale = locale(grouping_mark = "."))
+  intervencije.po.kategorijah.skozi.leta[is.na(intervencije.po.kategorijah.skozi.leta)] <- 0
   
-  intervencije.po.kategorijah.skozi.leta$Število <- function(){
-    dolzina <- length(intervencije.po.kategorijah.skozi.leta$VrstaDogodka)
-    a = integer(dolzina)
-                       
-  for (i in c(1:dolzina)){
-    if (intervencije.po.kategorijah.skozi.leta$SkupinaDogodka[i] %in% c("Požari v objektih" , "Nesreče v cestnem prometu" , "Požari v naravi oziroma na prostem" , "Tehnična in druga pomoč")){
-      a[i] <- 1000 * intervencije.po.kategorijah.skozi.leta$Število[i]
-    }
-    else{
-      a[i] <- intervencije.po.kategorijah.skozi.leta$Število[i]
-      }
-    }
-    return(a)
-  }
-#število prebivalcev po občinah, uvoz iz spletne strani  
-  
-  stevilo.prebivalcev.po.obcinah <- read_csv2("podatki/stevilo prebivalcev po obcinah za leto 2016.csv",
-                                              skip = 5, n_max = 212,
-                                              locale = locale(encoding = "CP1250", grouping_mark=";"), 
-                                              col_names = c("1", "obcina", "populacija"))
-  
-  for (i in 1:length(stevilo.prebivalcev.po.obcinah$obcina)) {
-        stevilo.prebivalcev.po.obcinah$obcina[i] <- 
-              head(first(strsplit(stevilo.prebivalcev.po.obcinah$obcina[i], "/"))[1]) %>% toupper()
-      }
-        
-  stevilo.prebivalcev.po.obcinah <- data.frame(obcina = stevilo.prebivalcev.po.obcinah$obcina, 
-                                               populacija = stevilo.prebivalcev.po.obcinah$populacija)
 
 #podatki iz funkcije "vrste intervencij po drustvih.r", ki smo jih shranili v datoteko
 

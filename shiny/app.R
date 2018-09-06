@@ -1,7 +1,6 @@
 library(shiny)
 
 ui <- fluidPage(
-  headerPanel("Število intervencij po občinah po posameznih kategorijah"),
   
   sidebarPanel(selectInput("kat", "kategorije", 
                            choices = c("DRUGE NESREČE", "NESREČE V PROMETU", "POŽARI IN EKSPLOZIJE", "JEDRSKI IN DRUGI DOGODKI", "NARAVNE NESREČE", "ONESNAŽENJA, NESREČE Z NEVARNIMI SNOVMI", "TEHNIČNA IN DRUGA POMOČ", "NAJDBE NUS, MOTNJE OSKRBE IN POŠKODBE OBJEKTOV"))),
