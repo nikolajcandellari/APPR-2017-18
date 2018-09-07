@@ -70,10 +70,6 @@ intervencije.po.obcinah <- obcine %>% group_by(obcina, aktivnost) %>% summarise(
 #pridobivanje povprečnih vrednosti
    povprečna.poseljenost <- stevilo.prebivalcev.po.obcinah$populacija %>% mean() %>% round()
    povprečna.površina <- zemljevid$POVRSINA %>% unique() %>% mean() %>% round()
-
-#popravljanje populacije in površine glede na povprečno vrednost   
-   stevilo.prebivalcev.po.obcinah$populacija <- (1/stevilo.prebivalcev.po.obcinah$populacija) * povprečna.poseljenost
-   zemljevid$POVRSINA <- (1/zemljevid$POVRSINA) * povprečna.površina 
    
 #kreiranje tabele za analizo
    neki.neki <-left_join(intervencije.po.obcinah, stevilo.prebivalcev.po.obcinah, by=c("obcina" = "obcina")) %>% 
@@ -81,15 +77,20 @@ intervencije.po.obcinah <- obcine %>% group_by(obcina, aktivnost) %>% summarise(
    neki.neki <- unique(data.frame(obcina=neki.neki$obcina, aktivnost=neki.neki$aktivnost, stevilo=neki.neki$stevilo, populacija=neki.neki$populacija, površina=neki.neki$POVRSINA))
    neki.neki$stevilo[is.na(neki.neki$stevilo)] <- 0
    
+#popravljanje populacije in površine glede na povprečno vrednost   
+   neki.neki$populacija <- (1/neki.neki$populacija) * povprečna.poseljenost
+   neki.neki$površina <- (1/neki.neki$površina) * povprečna.površina 
+   
 #izračun količnika ogroženosti posamezne občine z določeno vrsto nesreče
 # stevilo_intervencij * razlika_populacije_občine_do_povprečne_vrednosti * razlika_površine_občine_do_povprečne_vrednosti
    količnik <- round(neki.neki$stevilo * neki.neki$populacija * neki.neki$površina)
    analizna <- bind_cols(obcina=neki.neki$obcina, aktivnost=neki.neki$aktivnost, količnik=količnik)
+# organiziral tabelo padajoče po količniku
    analizna <- analizna[order(-količnik), ] 
 
 #funkcija ki vrne prvih deset občin po količniku glede na kategorijo
    top5 <- function(kategorija){
             a<- filter(analizna, aktivnost == kategorija) %>% head(5)
             return(a$obcina)
-   }
+            }
    
