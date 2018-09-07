@@ -71,3 +71,11 @@ sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
 
   osnovna <- left_join(drustva.po.naslovih, poste, by=c("posta" = "posta")) %>%  
     left_join(tabela.toupper, by=c("naselje" = "NASELJE")) 
+
+#število prebivalcev po občinah, uvoz iz spletne strani  
+  
+  stevilo.prebivalcev.po.obcinah <- read_csv2("podatki/stevilo prebivalcev po obcinah za leto 2016.csv",
+                                              skip = 5, n_max = 212,
+                                              locale = locale(encoding = "CP1250", grouping_mark=";"), 
+                                              col_names = c("1", "obcina", "populacija"))
+  stevilo.prebivalcev.po.obcinah$obcina <- toupper(stevilo.prebivalcev.po.obcinah$obcina)

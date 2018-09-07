@@ -68,7 +68,7 @@ Za posredovanja pri prometnih, naravnih in tehničnih nesrečah, ki so po obsegu
 
 Večina teh enot se nahaja v večjih mestih, na območju prometnih cest ali ob večjih industrijskih obratih. 
 
-## vizualizacija in napredna analiza
+## vizualizacija in analiza
 
 Največji izziv tega projekta je bila zagotovo vizualizacija danih podatkov, saj nisem nikjer zasledil podatkov o tem na kako velikem področju deluje posamezna enota ter kje so meje njihovega posredovanja. Edina približno dobra ideja, ki se mi je porodila je bila, da sem iz spletne strani [Gasilec.net](http://www.gasilec.net/) za posamezne enote pridobil njihove naslove nato pa drustva grupiral po občinah saj sem iz osnutka poročila že imel zemljevid slovenskih občin.
 
@@ -106,23 +106,31 @@ Opazno je, da nihanje požarnih intervencij sledi iz neenakomernega števila po�
 Skozi leta skokovito narašča število tehničnih posegov, kateri so pravzaprav edini razlog za skupno rast intervencij skozi leta. 
 Pod tehnične intervencije spadajo:
 
-*izčrpavanje vode iz objektov(če za to ni kriva narava-v tem primeru je to naravna nesreča)
+* izčrpavanje vode iz objektov(če za to ni kriva narava-v tem primeru je to naravna nesreča)
 
-*odstranjevanje sršenjih, osjih in drugih gnezd
+* odstranjevanje sršenjih, osjih in drugih gnezd
 
-*pomoč pri prenosih ponesrečencev
+* pomoč pri prenosih ponesrečencev
 
-*izvleki avtomobilov, tovornjakov,...
+* izvleki avtomobilov, tovornjakov,...
 
-*reševanje ljudi in živali s pomočjo vrvne tehnike(oz. plezalne opreme)
+* reševanje ljudi in živali s pomočjo vrvne tehnike(oz. plezalne opreme)
 
-*iskanje pogrešanih oseb
+* iskanje pogrešanih oseb
 
-*odpiranje vrata za dostopanje do onemoglih oseb
+* odpiranje vrata za dostopanje do onemoglih oseb
 
 
 Gasilske enote so torej čedalje pogoste klicane na pomoč tudi v situacijah, kjer bi lahko posredovale druge reševalne skupine ali uniformirane enote(npr. civilna zaščita, lovci, jamarji, vojska,...). Razlog tiči predvsem v njihovem hitrem odzivu in dobre publicitete, ki jo v tem času uživa gasilstvo. Poleg tega pa je v Sloveniji mnogo enot prostovoljne narava s čimer je to za državo dosti ceneje. 
 
-##Zaključek 
-
 Čeprav število intervencij raste skozi leta, to ni posledica večje ogroženosti ljudi temveč širjenja pristojnosti gasilske organizacije na Slovenskem. 
+
+## napredna analiza
+
+V tem delu bomo želeli pogledati v katerih občinah je največja verjetnost, da se vam pripeti prometna nesreča, da doživite požar ali pa vam ponagaja neurje. Podatke ne bomo primerjali zgolj po številu intervencij v občini ampak bmo te podatke "obtežili" s številom prebivalcev in površino občine(glede na povprečno število prebivalcev/površino v slovenski občini). Podatke bomo nato prikazali v skupni tabeli in vam prepustili razmišljanje o preselitvi.
+
+```{r, echo=FALSE}
+bind_cols(pozari=top5("POŽARI IN EKSPLOZIJE"), prometne=top5("NESREČE V PROMETU"), tehnicne=top5("TEHNIČNA IN DRUGA POMOČ"), druge=top5("DRUGE NESREČE"), naravne=top5("NARAVNE NESREČE"))
+```
+
+
