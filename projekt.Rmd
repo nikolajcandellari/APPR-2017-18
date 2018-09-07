@@ -125,12 +125,12 @@ Gasilske enote so torej čedalje pogoste klicane na pomoč tudi v situacijah, kj
 
 Čeprav število intervencij raste skozi leta, to ni posledica večje ogroženosti ljudi temveč širjenja pristojnosti gasilske organizacije na Slovenskem. 
 
-## napredna analiza
+## Napredna analiza
 
 V tem delu bomo želeli pogledati v katerih občinah je največja verjetnost, da se vam pripeti prometna nesreča, da doživite požar ali pa vam ponagaja neurje. Podatke ne bomo primerjali zgolj po številu intervencij v občini ampak bmo te podatke "obtežili" s številom prebivalcev in površino občine(glede na povprečno število prebivalcev/površino v slovenski občini). Podatke bomo nato prikazali v skupni tabeli in vam prepustili razmišljanje o preselitvi.
 
 ```{r, echo=FALSE}
-bind_cols(pozari=top5("POŽARI IN EKSPLOZIJE"), prometne=top5("NESREČE V PROMETU"), tehnicne=top5("TEHNIČNA IN DRUGA POMOČ"), druge=top5("DRUGE NESREČE"), naravne=top5("NARAVNE NESREČE"))
+kable(bind_cols(pozari=top5("POŽARI IN EKSPLOZIJE"), prometne=top5("NESREČE V PROMETU"), tehnicne=top5("TEHNIČNA IN DRUGA POMOČ"), druge=top5("DRUGE NESREČE"), naravne=top5("NARAVNE NESREČE")))
 ```
 
 
